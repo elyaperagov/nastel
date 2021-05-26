@@ -1,0 +1,24 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  outline: none !important;
+  border: none;
+  transition: $transition-settings;
+  cursor: pointer;
+
+  .icon {
+    stroke: $color-white;
+    transition: $transition-settings;
+  }
+
+  &:hover {
+    background: transparent;
+
+    .icon {
+      stroke: $color-blue;
+    }
+  }
+
+}

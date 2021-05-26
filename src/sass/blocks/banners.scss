@@ -1,0 +1,56 @@
+.banners {
+  position: relative;
+}
+
+.banners__swiper {
+  .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    background-color: $color-black;
+    border-radius: 50%;
+    height: 40px;
+    background-color: #2D2D2D;
+    border-radius: 50%;
+    bottom: 26px !important;
+    left: 43.8%;
+    top: auto;
+
+    &:after {
+      display: none;
+    }
+  }
+  .swiper-button-next {
+    width: 40px;
+    height: 40px;
+    background-color: $color-black;
+    border-radius: 50%;
+    top: auto !important;
+    bottom: 26px !important;
+    right: 43.8%;
+    top: auto;
+    transform: rotate(180deg);
+
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.banners__content {
+  position: absolute;
+  margin: auto;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.banners__text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  color: $color-black;
+  margin: 0;
+  transform: translateY(24px);
+}
