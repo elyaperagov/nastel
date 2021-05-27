@@ -12,31 +12,21 @@
             :key="b"
             class="design__item"
           >
-            <div class="design__content">
-              <p class="design__text">{{ slide.text }}</p>
-              <div class="design__image">
-                <img
-                  :src="slide.img"
-                  :alt="slide.img_alt"
-                  :width="slide.img_width"
-                  :height="slide.img_height"
-                />
-              </div>
+            <div class="design__image">
+              <img
+                :src="slide.img"
+                :alt="slide.img_alt"
+                :width="slide.img_width"
+                :height="slide.img_height"
+              />
             </div>
-
+            <div class="design__texts">
+              <h2>{{ slide.title }}</h2>
+              <p>{{ slide.text }}</p>
+            </div>
           </swiper-slide>
 
           <div class="swiper-pagination" slot="pagination"></div>
-          <button class="button swiper-button-next" slot="button-next">
-            <svg class="icon" width="21" height="12" aria-hidden="true">
-              <use xlink:href="#swiper-arrow"></use>
-            </svg>
-          </button>
-          <button class="button swiper-button-prev" slot="button-prev">
-            <svg class="icon" width="21" height="12" aria-hidden="true">
-              <use xlink:href="#swiper-arrow"></use>
-            </svg>
-          </button>
         </swiper>
       </div>
     </div>
@@ -58,45 +48,69 @@ export default {
       SliderOptions: {
         direction: 'vertical',
         slidesPerView: 1,
-        spaceBetween: 20,
         loop: false,
+        mousewheel: true,
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
           renderBullet(index, className) {
-            return `<span class="${className} swiper-pagination-bullet-custom">${index +
+            if (index < 9) {
+              return `<span class="${className} swiper-pagination-bullet-custom">0${index +
               1}</span>`
+            } else {
+              return `<span class="${className} swiper-pagination-bullet-custom">${index +
+              1}</span>`
+            }
+
           },
         },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
+        navigation: {},
       },
       slides: [
         {
+          title: "Индивидуальное проектирование",
           text:
             'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',
           img: 'img/design.jpg',
-          img_alt: "конфигурация дома для разных земельных участков",
+          img_alt: 'конфигурация дома для разных земельных участков',
           img_width: 680,
-          img_height: 500
+          img_height: 500,
         },
         {
+          title: "Индивидуальное проектирование",
           text:
             'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',
           img: 'img/design.jpg',
-          img_alt: "конфигурация дома для разных земельных участков",
+          img_alt: 'конфигурация дома для разных земельных участков',
           img_width: 680,
-          img_height: 500
+          img_height: 500,
         },
         {
+          title: "Индивидуальное проектирование",
           text:
             'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',
           img: 'img/design.jpg',
-          img_alt: "конфигурация дома для разных земельных участков",
+          img_alt: 'конфигурация дома для разных земельных участков',
           img_width: 680,
-          img_height: 500
+          img_height: 500,
+        },
+        {
+          title: "Индивидуальное проектирование",
+          text:
+            'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',
+          img: 'img/design.jpg',
+          img_alt: 'конфигурация дома для разных земельных участков',
+          img_width: 680,
+          img_height: 500,
+        },
+        {
+          title: "Индивидуальное проектирование",
+          text:
+            'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',
+          img: 'img/design.jpg',
+          img_alt: 'конфигурация дома для разных земельных участков',
+          img_width: 680,
+          img_height: 500,
         },
       ],
     }

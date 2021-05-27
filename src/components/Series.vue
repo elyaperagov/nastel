@@ -2,7 +2,7 @@
   <section class="series">
     <div class="container">
       <div class="series__titles">
-        <h2 class="series__page-title">{{ title }}</h2>
+        <h2>{{ title }}</h2>
         <p class="series__page-subtitle">{{ subtitle }}</p>
         <a :href="see_all"> {{ see_all_text }} </a>
       </div>
@@ -39,7 +39,7 @@
               <p>{{ '01' }}</p>
               <p>{{ '0' + slides.length }}</p>
             </div>
-            <div v-else>
+            <div class="series__counter" v-if="slides.length > 10">
               <p>{{ '01' }}</p>
               <p>{{ slides.length }}</p>
             </div>
@@ -93,6 +93,231 @@ export default {
       see_all: '#',
       see_all_text: 'Смотреть все',
       slides: [
+        {
+          items: [
+            {
+              title: 'Серия "Cabin"',
+              image: 'img/cabin.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Cabin',
+            },
+            {
+              title: 'Серия "Patio"',
+              image: 'img/patio.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Патио',
+            },
+            {
+              title: 'Серия "Зигзаг"',
+              image: 'img/zigzag.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Зигзаг',
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              title: 'Серия "Cabin"',
+              image: 'img/cabin.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Cabin',
+            },
+            {
+              title: 'Серия "Patio"',
+              image: 'img/patio.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Патио',
+            },
+            {
+              title: 'Серия "Зигзаг"',
+              image: 'img/zigzag.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Зигзаг',
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              title: 'Серия "Cabin"',
+              image: 'img/cabin.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Cabin',
+            },
+            {
+              title: 'Серия "Patio"',
+              image: 'img/patio.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Патио',
+            },
+            {
+              title: 'Серия "Зигзаг"',
+              image: 'img/zigzag.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Зигзаг',
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              title: 'Серия "Cabin"',
+              image: 'img/cabin.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Cabin',
+            },
+            {
+              title: 'Серия "Patio"',
+              image: 'img/patio.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Патио',
+            },
+            {
+              title: 'Серия "Зигзаг"',
+              image: 'img/zigzag.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Зигзаг',
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              title: 'Серия "Cabin"',
+              image: 'img/cabin.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Cabin',
+            },
+            {
+              title: 'Серия "Patio"',
+              image: 'img/patio.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Патио',
+            },
+            {
+              title: 'Серия "Зигзаг"',
+              image: 'img/zigzag.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Зигзаг',
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              title: 'Серия "Cabin"',
+              image: 'img/cabin.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Cabin',
+            },
+            {
+              title: 'Серия "Patio"',
+              image: 'img/patio.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Патио',
+            },
+            {
+              title: 'Серия "Зигзаг"',
+              image: 'img/zigzag.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Зигзаг',
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              title: 'Серия "Cabin"',
+              image: 'img/cabin.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Cabin',
+            },
+            {
+              title: 'Серия "Patio"',
+              image: 'img/patio.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Патио',
+            },
+            {
+              title: 'Серия "Зигзаг"',
+              image: 'img/zigzag.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Зигзаг',
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              title: 'Серия "Cabin"',
+              image: 'img/cabin.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Cabin',
+            },
+            {
+              title: 'Серия "Patio"',
+              image: 'img/patio.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Патио',
+            },
+            {
+              title: 'Серия "Зигзаг"',
+              image: 'img/zigzag.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Зигзаг',
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              title: 'Серия "Cabin"',
+              image: 'img/cabin.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Cabin',
+            },
+            {
+              title: 'Серия "Patio"',
+              image: 'img/patio.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Патио',
+            },
+            {
+              title: 'Серия "Зигзаг"',
+              image: 'img/zigzag.jpg',
+              width: 510,
+              height: 400,
+              subtitle: 'Зигзаг',
+            },
+          ],
+        },
         {
           items: [
             {

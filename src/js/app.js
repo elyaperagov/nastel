@@ -7,6 +7,7 @@ import Footer from '../components/Footer.vue'
 import Banners from '../components/Banners.vue'
 import Series from '../components/Series.vue'
 import Design from '../components/Design.vue'
+import Quote from '../components/Quote.vue'
 
 import Helpers from '../lib/Helpers.js'
 
@@ -54,6 +55,7 @@ const app = new Vue({
     Footer,
     Banners,
     Series,
-    Design
+    Design,
+    Quote
   }
 })

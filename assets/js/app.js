@@ -120,17 +120,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({name:'Design',components:{Swiper:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["Swiper"],SwiperSlide:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["SwiperSlide"]},data:function data(){return{SliderOptions:{direction:'vertical',slidesPerView:1,spaceBetween:20,loop:false,pagination:{el:'.swiper-pagination',clickable:true,renderBullet:function renderBullet(index,className){return"<span class=\"".concat(className," swiper-pagination-bullet-custom\">").concat(index+1,"</span>");}},navigation:{nextEl:'.swiper-button-next',prevEl:'.swiper-button-prev'}},slides:[{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:"конфигурация дома для разных земельных участков",img_width:680,img_height:500},{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:"конфигурация дома для разных земельных участков",img_width:680,img_height:500},{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:"конфигурация дома для разных земельных участков",img_width:680,img_height:500}]};}});
+/* harmony default export */ __webpack_exports__["default"] = ({name:'Design',components:{Swiper:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["Swiper"],SwiperSlide:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["SwiperSlide"]},data:function data(){return{SliderOptions:{direction:'vertical',slidesPerView:1,loop:false,mousewheel:true,pagination:{el:'.swiper-pagination',clickable:true,renderBullet:function renderBullet(index,className){if(index<9){return"<span class=\"".concat(className," swiper-pagination-bullet-custom\">0").concat(index+1,"</span>");}else{return"<span class=\"".concat(className," swiper-pagination-bullet-custom\">").concat(index+1,"</span>");}}},navigation:{}},slides:[{title:"Индивидуальное проектирование",text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:"Индивидуальное проектирование",text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:"Индивидуальное проектирование",text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:"Индивидуальное проектирование",text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:"Индивидуальное проектирование",text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500}]};}});
 
 /***/ }),
 
@@ -261,6 +251,23 @@ function asyncGeneratorStep(gen,resolve,reject,_next,_throw,key,arg){try{var inf
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Quote.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Quote.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({name:'Quote'});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Series.vue?vue&type=script&lang=js&":
 /*!********************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Series.vue?vue&type=script&lang=js& ***!
@@ -338,7 +345,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({name:'Series',components:{Swiper:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["Swiper"],SwiperSlide:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["SwiperSlide"]},data:function data(){return{SliderOptions:{slidesPerView:1,spaceBetween:20,pagination:{el:'.swiper-pagination',clickable:true},navigation:{nextEl:'.swiper-button-next',prevEl:'.swiper-button-prev'}},title:'Наши серии',subtitle:'PLATforma Home– это не просто дома, идеально созданные в заводских условиях по современным технологиям. Это философия жизни в стиле максимального личного комфорта, уюта и благополучия.',logo:'img/company-name.png',see_all:'#',see_all_text:'Смотреть все',slides:[{items:[{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]},{items:[{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]},{items:[{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]}]};}});
+/* harmony default export */ __webpack_exports__["default"] = ({name:'Series',components:{Swiper:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["Swiper"],SwiperSlide:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["SwiperSlide"]},data:function data(){return{SliderOptions:{slidesPerView:1,spaceBetween:20,pagination:{el:'.swiper-pagination',clickable:true},navigation:{nextEl:'.swiper-button-next',prevEl:'.swiper-button-prev'}},title:'Наши серии',subtitle:'PLATforma Home– это не просто дома, идеально созданные в заводских условиях по современным технологиям. Это философия жизни в стиле максимального личного комфорта, уюта и благополучия.',logo:'img/company-name.png',see_all:'#',see_all_text:'Смотреть все',slides:[{items:[{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]},{items:[{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]},{items:[{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]},{items:[{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]},{items:[{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]},{items:[{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]},{items:[{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]},{items:[{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]},{items:[{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]},{items:[{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]},{items:[{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]},{items:[{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]}]};}});
 
 /***/ }),
 
@@ -12275,21 +12282,21 @@ var render = function() {
                   "swiper-slide",
                   { key: b, staticClass: "design__item" },
                   [
-                    _c("div", { staticClass: "design__content" }, [
-                      _c("p", { staticClass: "design__text" }, [
-                        _vm._v(_vm._s(slide.text))
-                      ]),
+                    _c("div", { staticClass: "design__image" }, [
+                      _c("img", {
+                        attrs: {
+                          src: slide.img,
+                          alt: slide.img_alt,
+                          width: slide.img_width,
+                          height: slide.img_height
+                        }
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "design__texts" }, [
+                      _c("h2", [_vm._v(_vm._s(slide.title))]),
                       _vm._v(" "),
-                      _c("div", { staticClass: "design__image" }, [
-                        _c("img", {
-                          attrs: {
-                            src: slide.img,
-                            alt: slide.img_alt,
-                            width: slide.img_width,
-                            height: slide.img_height
-                          }
-                        })
-                      ])
+                      _c("p", [_vm._v(_vm._s(slide.text))])
                     ])
                   ]
                 )
@@ -12299,53 +12306,7 @@ var render = function() {
                 staticClass: "swiper-pagination",
                 attrs: { slot: "pagination" },
                 slot: "pagination"
-              }),
-              _vm._v(" "),
-              _c(
-                "button",
-                {
-                  staticClass: "button swiper-button-next",
-                  attrs: { slot: "button-next" },
-                  slot: "button-next"
-                },
-                [
-                  _c(
-                    "svg",
-                    {
-                      staticClass: "icon",
-                      attrs: {
-                        width: "21",
-                        height: "12",
-                        "aria-hidden": "true"
-                      }
-                    },
-                    [_c("use", { attrs: { "xlink:href": "#swiper-arrow" } })]
-                  )
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "button",
-                {
-                  staticClass: "button swiper-button-prev",
-                  attrs: { slot: "button-prev" },
-                  slot: "button-prev"
-                },
-                [
-                  _c(
-                    "svg",
-                    {
-                      staticClass: "icon",
-                      attrs: {
-                        width: "21",
-                        height: "12",
-                        "aria-hidden": "true"
-                      }
-                    },
-                    [_c("use", { attrs: { "xlink:href": "#swiper-arrow" } })]
-                  )
-                ]
-              )
+              })
             ],
             2
           )
@@ -12516,6 +12477,30 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Quote.vue?vue&type=template&id=d33ce708&":
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Quote.vue?vue&type=template&id=d33ce708& ***!
+  \***********************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [_vm._v("Quote")])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Series.vue?vue&type=template&id=60f2ddb2&":
 /*!************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Series.vue?vue&type=template&id=60f2ddb2& ***!
@@ -12534,9 +12519,7 @@ var render = function() {
   return _c("section", { staticClass: "series" }, [
     _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "series__titles" }, [
-        _c("h2", { staticClass: "series__page-title" }, [
-          _vm._v(_vm._s(_vm.title))
-        ]),
+        _c("h2", [_vm._v(_vm._s(_vm.title))]),
         _vm._v(" "),
         _c("p", { staticClass: "series__page-subtitle" }, [
           _vm._v(_vm._s(_vm.subtitle))
@@ -12598,11 +12581,15 @@ var render = function() {
                           _vm._v(" "),
                           _c("p", [_vm._v(_vm._s("0" + _vm.slides.length))])
                         ])
-                      : _c("div", [
+                      : _vm._e(),
+                    _vm._v(" "),
+                    _vm.slides.length > 10
+                      ? _c("div", { staticClass: "series__counter" }, [
                           _c("p", [_vm._v(_vm._s("01"))]),
                           _vm._v(" "),
                           _c("p", [_vm._v(_vm._s(_vm.slides.length))])
                         ])
+                      : _vm._e()
                   ]
                 )
               }),
@@ -13200,6 +13187,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/components/Quote.vue":
+/*!**********************************!*\
+  !*** ./src/components/Quote.vue ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Quote_vue_vue_type_template_id_d33ce708___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Quote.vue?vue&type=template&id=d33ce708& */ "./src/components/Quote.vue?vue&type=template&id=d33ce708&");
+/* harmony import */ var _Quote_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Quote.vue?vue&type=script&lang=js& */ "./src/components/Quote.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Quote_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Quote_vue_vue_type_template_id_d33ce708___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Quote_vue_vue_type_template_id_d33ce708___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/components/Quote.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/components/Quote.vue?vue&type=script&lang=js&":
+/*!***********************************************************!*\
+  !*** ./src/components/Quote.vue?vue&type=script&lang=js& ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Quote_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib??ref--4-0!../../node_modules/vue-loader/lib??vue-loader-options!./Quote.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Quote.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Quote_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/components/Quote.vue?vue&type=template&id=d33ce708&":
+/*!*****************************************************************!*\
+  !*** ./src/components/Quote.vue?vue&type=template&id=d33ce708& ***!
+  \*****************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Quote_vue_vue_type_template_id_d33ce708___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib??vue-loader-options!./Quote.vue?vue&type=template&id=d33ce708& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/Quote.vue?vue&type=template&id=d33ce708&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Quote_vue_vue_type_template_id_d33ce708___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Quote_vue_vue_type_template_id_d33ce708___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./src/components/Series.vue":
 /*!***********************************!*\
   !*** ./src/components/Series.vue ***!
@@ -13358,8 +13414,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Banners_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Banners.vue */ "./src/components/Banners.vue");
 /* harmony import */ var _components_Series_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Series.vue */ "./src/components/Series.vue");
 /* harmony import */ var _components_Design_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Design.vue */ "./src/components/Design.vue");
-/* harmony import */ var _lib_Helpers_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../lib/Helpers.js */ "./src/lib/Helpers.js");
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_the_mask__WEBPACK_IMPORTED_MODULE_1___default.a);vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(_lib_Helpers_js__WEBPACK_IMPORTED_MODULE_9__["default"]);vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('slide-up-down',vue_slide_up_down__WEBPACK_IMPORTED_MODULE_2__["default"]);vue__WEBPACK_IMPORTED_MODULE_0___default.a.config.comments=true;vue__WEBPACK_IMPORTED_MODULE_0___default.a.config.ignoredElements=['noindex',/^ion-/];vue__WEBPACK_IMPORTED_MODULE_0___default.a.directive('scroll',{inserted:function inserted(el,binding){var f=function f(evt){if(binding.value(evt,el)){window.removeEventListener('scroll',f);}};window.addEventListener('scroll',f);console.log('scroll');}});var app=new vue__WEBPACK_IMPORTED_MODULE_0___default.a({el:'#app',data:function data(){return{};},watch:{},computed:{},created:function created(){},mounted:function mounted(){},methods:{},components:{Sprite:_components_Sprite_vue__WEBPACK_IMPORTED_MODULE_3__["default"],HeaderMain:_components_HeaderMain_vue__WEBPACK_IMPORTED_MODULE_4__["default"],Footer:_components_Footer_vue__WEBPACK_IMPORTED_MODULE_5__["default"],Banners:_components_Banners_vue__WEBPACK_IMPORTED_MODULE_6__["default"],Series:_components_Series_vue__WEBPACK_IMPORTED_MODULE_7__["default"],Design:_components_Design_vue__WEBPACK_IMPORTED_MODULE_8__["default"]}});
+/* harmony import */ var _components_Quote_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Quote.vue */ "./src/components/Quote.vue");
+/* harmony import */ var _lib_Helpers_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../lib/Helpers.js */ "./src/lib/Helpers.js");
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_the_mask__WEBPACK_IMPORTED_MODULE_1___default.a);vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(_lib_Helpers_js__WEBPACK_IMPORTED_MODULE_10__["default"]);vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('slide-up-down',vue_slide_up_down__WEBPACK_IMPORTED_MODULE_2__["default"]);vue__WEBPACK_IMPORTED_MODULE_0___default.a.config.comments=true;vue__WEBPACK_IMPORTED_MODULE_0___default.a.config.ignoredElements=['noindex',/^ion-/];vue__WEBPACK_IMPORTED_MODULE_0___default.a.directive('scroll',{inserted:function inserted(el,binding){var f=function f(evt){if(binding.value(evt,el)){window.removeEventListener('scroll',f);}};window.addEventListener('scroll',f);console.log('scroll');}});var app=new vue__WEBPACK_IMPORTED_MODULE_0___default.a({el:'#app',data:function data(){return{};},watch:{},computed:{},created:function created(){},mounted:function mounted(){},methods:{},components:{Sprite:_components_Sprite_vue__WEBPACK_IMPORTED_MODULE_3__["default"],HeaderMain:_components_HeaderMain_vue__WEBPACK_IMPORTED_MODULE_4__["default"],Footer:_components_Footer_vue__WEBPACK_IMPORTED_MODULE_5__["default"],Banners:_components_Banners_vue__WEBPACK_IMPORTED_MODULE_6__["default"],Series:_components_Series_vue__WEBPACK_IMPORTED_MODULE_7__["default"],Design:_components_Design_vue__WEBPACK_IMPORTED_MODULE_8__["default"],Quote:_components_Quote_vue__WEBPACK_IMPORTED_MODULE_9__["default"]}});
 
 /***/ }),
 
@@ -13394,8 +13451,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\open_server_5_3_7_full\OpenServer\domains\platfirma\src\js\app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! E:\open_server_5_3_7_full\OpenServer\domains\platfirma\src\sass\app.scss */"./src/sass/app.scss");
+__webpack_require__(/*! E:\open_server_5_3_7_full\OpenServer\domains\platforma\src\js\app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! E:\open_server_5_3_7_full\OpenServer\domains\platforma\src\sass\app.scss */"./src/sass/app.scss");
 
 
 /***/ })
