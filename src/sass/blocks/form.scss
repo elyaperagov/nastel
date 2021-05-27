@@ -1,0 +1,194 @@
+.form {
+  background-color: $color-black;
+  min-height: 750px;
+  padding: 130px 0;
+
+  h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: $color-default-white;
+    margin: 0;
+  }
+}
+
+.form__request {
+  width: 77%;
+}
+
+.form__fields-wrapper {
+  display: flex;
+
+  .form__field {
+    width: 49%;
+    margin-right: 2%;
+  }
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.form__label {
+  cursor: pointer;
+  position: absolute;
+  top: 18px;
+  left: 15px;
+  opacity: 0.5;
+  line-height: 100%;
+  transition: $transition-settings;
+  color: $color-default-white;
+
+  &--checkbox {
+    position: static;
+    opacity: 1;
+    line-height: 120%;
+
+    span {
+      padding-left: 30px;
+      display: flex;
+    }
+  }
+
+  &--disabled {
+    span {
+      opacity: 0.5;
+    }
+  }
+
+  h {
+    opacity: 0;
+    transition: $transition-settings;
+  }
+
+  &:hover {
+    h {
+      opacity: 1;
+    }
+  }
+
+}
+
+.form__field {
+  position: relative;
+}
+
+// input, textarea {
+//   outline:none;
+// }
+
+// // не показывать обводку в состоянии focus
+// input:focus, textarea:focus {
+//   outline:none;
+// }
+
+.form__input,
+.form__textarea {
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+  border-bottom: 2px solid #C4C4C4;
+  background-color: $color-black;
+  padding: 18px 15px 0;
+  line-height: 100%;
+  transition: $transition-settings;
+
+  &:hover {
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: 2px solid $color-light-gray;
+  }
+
+  &:focus {
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: 2px solid $color-light-gray;
+    padding: 26px 15px 8px;
+  }
+
+  &--error {
+    border: 1px solid $color-red !important;
+  }
+}
+
+.form__input:focus+label,
+.form__textarea:focus+label,
+.form__input:valid+label,
+.form__textarea:valid+label,
+.form__input--filled+label,
+.form__textarea--filled+label {
+  top: 8px;
+  font-size: 13px;
+
+  h {
+    opacity: 1;
+  }
+}
+
+.form__input:hover+label {
+  h {
+    opacity: 1;
+  }
+}
+
+.form__input {
+  width: 100%;
+  height: 52px;
+  margin-bottom: 10px;
+}
+
+.form__textarea {
+  min-height: 150px;
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+.icon-error {
+  position: absolute;
+  top: 14px;
+  right: 15px;
+  width: 24px;
+  height: 24px;
+  z-index: 1;
+}
+
+.form__error {
+  position: absolute;
+  top: 0;
+  left: calc(100% - 27px);
+  font-size: 9px;
+  line-height: 100%;
+  padding: 4px 6px;
+  background: $color-white;
+  opacity: 0;
+  z-index: 0;
+  transition: $transition-settings;
+}
+
+.icon-error:hover+.form__error,
+.form__error:hover {
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.form__length {
+  position: absolute;
+  font-size: 13px;
+  line-height: 100%;
+  opacity: 0.5;
+  bottom: 32px;
+  right: 15px;
+}
+
+.form__agree {
+  text-align: center;
+  font-size: 13px;
+  line-height: 140%;
+  opacity: 0.5;
+  margin: 10px 0 0;
+}

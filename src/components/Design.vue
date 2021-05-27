@@ -49,7 +49,6 @@ export default {
         direction: 'vertical',
         slidesPerView: 1,
         loop: false,
-        mousewheel: true,
         pagination: {
           el: '.swiper-pagination',
           clickable: true,

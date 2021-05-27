@@ -19,7 +19,7 @@ body {
   margin: 0 auto;
   height: 100%;
   color: $font-base-color;
-  background-color: $background-base-color;
+  background-color: $color-default-white;
 }
 
 img {
@@ -71,10 +71,11 @@ h2 {
 
 h3 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 130%;
-  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: $color-black;
 }
 
 h5 {

@@ -8,13 +8,46 @@
   transition: $transition-settings;
   cursor: pointer;
 
+
+  &--round {
+    border-radius: 50%;
+    background-color: $color-black;
+    border-radius: 50%;
+    background-color: $color-black;
+    display: block;
+    width: 120px;
+    min-height: 120px;
+    padding: 48px 0;
+
+    p {
+      display: flex;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      height: 24px; /* fallback */
+      margin: 0;
+      color: $color-default-white;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 12px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+
   .icon {
     stroke: $color-white;
     transition: $transition-settings;
   }
 
   &:hover {
-    background: transparent;
+    background: $color-light-gray;
+
+    p {
+      color: $color-black;
+    }
 
     .icon {
       stroke: $color-blue;
