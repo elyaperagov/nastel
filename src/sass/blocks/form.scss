@@ -14,31 +14,38 @@
 }
 
 .form__request {
-  width: 77%;
+  width: 76.7%;
 }
 
 .form__fields-wrapper {
   display: flex;
 
   .form__field {
-    width: 49%;
-    margin-right: 2%;
-  }
+    width: 48.5%;
+    margin-right: 3%;
 
-  &:last-of-type {
-    margin-right: 0;
+    &:last-of-type {
+      margin-right: 0;
+    }
   }
+}
+
+.form__subtitle {
+  margin-bottom: 49px;
 }
 
 .form__label {
   cursor: pointer;
   position: absolute;
-  top: 18px;
-  left: 15px;
-  opacity: 0.5;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  top: 25px;
+  left: 0;
   line-height: 100%;
   transition: $transition-settings;
-  color: $color-default-white;
+  color: #f4f4f4;
 
   &--checkbox {
     position: static;
@@ -72,6 +79,11 @@
 
 .form__field {
   position: relative;
+  margin-bottom: 28px;
+
+  &:last-of-type {
+    margin-bottom: 30px;
+  }
 }
 
 // input, textarea {
@@ -90,9 +102,12 @@
   border-left: transparent;
   border-bottom: 2px solid #C4C4C4;
   background-color: $color-black;
-  padding: 18px 15px 0;
-  line-height: 100%;
+  padding: 23px 15px 0;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
   transition: $transition-settings;
+  color: $color-default-white;
 
   &:hover {
     border-top: transparent;
@@ -110,6 +125,7 @@
   }
 
   &--error {
+    border-radius: 10px;
     border: 1px solid $color-red !important;
   }
 }
@@ -141,10 +157,12 @@
 }
 
 .form__textarea {
-  min-height: 150px;
+  height: 52px;
+  min-height: 52px;
   max-width: 100%;
   width: 100%;
-  margin-bottom: 20px;
+  line-height: 15px;;
+  white-space: nowrap;
   resize: none;
 }
 
@@ -187,8 +205,38 @@
 
 .form__agree {
   text-align: center;
-  font-size: 13px;
-  line-height: 140%;
-  opacity: 0.5;
-  margin: 10px 0 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #C4C4C4;
+  text-align: left;
+  margin: 4px 0 0 0;
+}
+
+.form__send {
+  display: flex;
+  align-items: center;
+  width: 56%;
+  margin-top: 72px;
+}
+
+.form__file {
+  width: 160px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  label {
+    cursor: pointer;
+  }
+
+  input {
+    display: none;
+  }
+
+  span {
+    color: $color-default-white;
+  }
 }

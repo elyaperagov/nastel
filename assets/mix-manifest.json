@@ -8,7 +8,8 @@
     "/js/vendor.js": "/js/vendor.js",
     "/js/vendor.js.map": "/js/vendor.js.map",
     "/img/arrow.svg": "/img/arrow.svg",
+    "/img/clip.svg": "/img/clip.svg",
     "/img/loading_1.svg": "/img/loading_1.svg",
-    "/img/quote.svg": "/img/quote.svg",
-    "/img/olive-branches.svg": "/img/olive-branches.svg"
+    "/img/olive-branches.svg": "/img/olive-branches.svg",
+    "/img/quote.svg": "/img/quote.svg"
 }

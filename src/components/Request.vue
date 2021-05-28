@@ -1,5 +1,5 @@
 <template>
-  <section class="form">
+  <section class="form" id="contact-us">
     <div class="container">
       <form action="get" id="form-consultation" class="form__request">
         <h3>{{ consultation.title }}</h3>
@@ -101,30 +101,41 @@
             </svg>
             <span class="form__error" v-html="form.message.error"></span>
           </template>
-          <template v-if="form.message.value.length">
-            <div class="form__length">
-              <span
-                class="form__length-current"
-                v-html="form.message.value.length"
-              ></span>
-              <span
-                class="form__length-max"
-                v-html="' / ' + form.message.maxlength"
-              ></span>
-            </div>
-          </template>
         </div>
-        <button
-          type="submit"
-          name="submit"
-          class="button button--big button--submit"
-          @click.prevent="sendFrom()"
-        >
-          {{ consultation.button }}
-        </button>
-        <p class="form__agree form__agree--consultation">
-          {{ consultation.agree }}
-        </p>
+        <div class="form__file">
+          <label class="form__file-label" for="attachement">
+            <svg
+              width="20"
+              height="19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <use xlink:href="#file" />
+            </svg>
+            <span v-if="form.file.value.name">{{ form.file.value.name }}</span>
+            <span v-else>Прикрепить файл</span>
+            <input
+              ref="file"
+              v-on:change="handleFiles()"
+              type="file"
+              id="attachement"
+              name="attachement"
+            />
+          </label>
+        </div>
+        <div class="form__send">
+          <p class="form__agree">
+            {{ consultation.agree }}
+          </p>
+          <button
+            type="submit"
+            name="submit"
+            class="button button--round button--white"
+            @click.prevent="sendFrom()"
+          >
+            <p>{{ consultation.button }}</p>
+          </button>
+        </div>
       </form>
     </div>
   </section>
@@ -161,9 +172,18 @@ export default {
           label: 'Сообщение',
           type: 'textarea',
           id: 'questions-message',
-          maxlength: 1000,
+          maxlength: 150,
           error: '',
         },
+        file: {
+          value: {},
+        },
+        accept: {
+          value: true,
+        },
+        default: {},
+        success_text: '',
+        overlay: false,
       },
     }
   },

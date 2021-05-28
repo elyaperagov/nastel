@@ -1,6 +1,7 @@
-.design {
+.manufacturing {
+  padding: 180px 0;
 
-  .design__swiper {
+  .manufacturing__swiper {
     height: 500px;
   }
 
@@ -46,16 +47,16 @@
   }
 }
 
-.design__item {
+.manufacturing__item {
   display: flex;
 }
 
-.design__image {
+.manufacturing__image {
+  height: 500px;
   margin-left: 7.5%;
   width: 42.5%;
   margin-right: 11.2%;
   flex-shrink: 0;
-  height: 450px;
 
   img {
     object-fit: cover;
@@ -64,7 +65,7 @@
   }
 }
 
-.design__texts {
+.manufacturing__texts {
   width: 38.7%;
   flex-shrink: 0;
   padding: 73px 5% 73px 0;

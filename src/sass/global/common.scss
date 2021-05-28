@@ -11,6 +11,29 @@ html {
   outline: none !important;
 }
 
+.wrapper {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  // @media (max-width: $mobiles-max) {
+  //   overflow-x: hidden;
+  // }
+
+  .header,
+  .footer {
+    flex-shrink: 0;
+  }
+
+  main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -187,7 +210,7 @@ a {
 
 input,
 textarea {
-  color: $color-black !important;
+  color: #f4f4f4;
   opacity: 1 !important;
 }
 

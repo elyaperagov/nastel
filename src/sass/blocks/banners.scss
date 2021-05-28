@@ -36,6 +36,14 @@
   }
 }
 
+.banners__image {
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+
 .banners__content {
   position: absolute;
   margin: auto;

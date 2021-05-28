@@ -11,6 +11,10 @@ import Quote from '../components/Quote.vue'
 import Production from '../components/Production.vue'
 import Exclusive from '../components/Exclusive.vue'
 import Request from '../components/Request.vue'
+import Partner from '../components/Partner.vue'
+import Manufacturing from '../components/Manufacturing.vue'
+import Faq from '../components/Faq.vue'
+import More from '../components/More.vue'
 
 import Helpers from '../lib/Helpers.js'
 
@@ -62,6 +66,10 @@ const app = new Vue({
     Quote,
     Production,
     Exclusive,
-    Request
+    Request,
+    Partner,
+    Manufacturing,
+    Faq,
+    More
   }
 })

@@ -19,24 +19,22 @@
             class="header__menu-item"
             v-for="(menu, i) in menu"
             :key="i"
-            @click.prevent="goTo(menu.link)"
             :href="menu.link"
-            v-html="menu.name"
-          ></a>
+          >
+            {{ menu.name }}</a
+          >
         </nav>
 
         <div class="header__contacts">
           <a
             :href="'tel:' + phone"
             class="header__phone"
-            v-html="phone"
+            @click.prevent="goTo(contact_link)"
           >
+            {{ phone }}
           </a>
-          <a
-            :href="contact_link"
-            class="header__contact-us"
-            v-html="contact_us"
-          >
+          <a :href="contact_link" class="header__contact-us">
+            {{ contact_us }}
           </a>
         </div>
       </div>
@@ -76,85 +74,84 @@ export default {
       mobileBreakpoint: 1024,
       windowWidth: window.innerWidth,
       isMobile: false,
-      logo: "img/platformahome.png",
+      logo: 'img/platformahome.png',
       width: 200,
       height: 111,
       menu: [
         {
-          name: "Концепция",
-          link: "#concepts"
+          name: 'Концепция',
+          link: '#concepts',
         },
         {
-          name: "Серии",
-          link: "#series"
+          name: 'Серии',
+          link: '#series',
         },
         {
-          name: "Проекты",
-          link: "#projects"
+          name: 'Проекты',
+          link: '#projects',
         },
         {
-          name: "Блог",
-          link: "#blog"
+          name: 'Блог',
+          link: '#blog',
         },
         {
-          name: "Контакты",
-          "link": "#contacts"
-        }
+          name: 'Контакты',
+          link: '#contacts',
+        },
       ],
-      phone: "+7 (812) 336-45-00",
-      contact_us: "Обратиться к нам",
-      contact_link: "#contact-us"
-    };
+      phone: '+7 (812) 336-45-00',
+      contact_us: 'Обратиться к нам',
+      contact_link: '#contact-us',
+    }
   },
-  computed: {
-  },
+  computed: {},
   mounted() {
-    window.addEventListener("resize", this.handleResize);
-    this.toggleMobile();
+    window.addEventListener('resize', this.handleResize)
+    this.toggleMobile()
   },
   beforeDestroy() {
-    window.removeEventListener("resize", this.handleResize);
-    this.toggleMobile();
+    window.removeEventListener('resize', this.handleResize)
+    this.toggleMobile()
   },
   methods: {
     async goTo(link) {
       if (!this.$scrollTo(link)) {
         setTimeout(() => {
-          this.$scrollTo(link);
-        }, 500);
+          this.$scrollTo(link)
+        }, 500)
       }
     },
     menuToggle(state = null) {
       if (state === null) {
-        state = !this.$store.state.menuShown;
+        state = !this.$store.state.menuShown
       }
-      this.$store.commit("setMenuState", state);
+      this.$store.commit('setMenuState', state)
     },
     menuClose(state) {
       if (this.$store.state.menuShown === true) {
-        this.$store.state.menuShown = false;
+        this.$store.state.menuShown = false
       }
-      this.$store.commit("setMenuClosed", state);
+      this.$store.commit('setMenuClosed', state)
     },
     toggleMobile() {
       if (window.innerWidth <= this.mobileBreakpoint) {
-        this.isMobile = true;
+        this.isMobile = true
       } else {
-        this.isMobile = false;
+        this.isMobile = false
       }
     },
     handleResize() {
-      this.toggleMobile();
-    }
+      this.toggleMobile()
+    },
   },
   created() {
-    let that = this;
-    document.addEventListener("keyup", function(evt) {
+    let that = this
+    document.addEventListener('keyup', function(evt) {
       if (evt.keyCode === 27) {
-        that.menuClose(true);
+        that.menuClose(true)
       }
-    });
+    })
   },
-  components: {}
-};
+  components: {},
+}
 </script>

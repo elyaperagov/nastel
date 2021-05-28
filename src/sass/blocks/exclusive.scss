@@ -61,8 +61,19 @@
 
 .exclusive__picture-wrapper {
   width: 49%;
+  height: 450px;
+  flex-shrink: 0;
 }
 
 .exclusive__item-inner {
   padding-right: 80px;
+}
+
+.exclusive__image {
+
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
 }
