@@ -2,6 +2,16 @@
 
   .design__swiper {
     height: 500px;
+
+    @media (max-width: $mobiles-max) {
+      height: 650px;
+    }
+  }
+
+  .swiper-slide {
+    &-active {
+      height: 100%!important;
+    }
   }
 
   .swiper-pagination {
@@ -48,6 +58,10 @@
 
 .design__item {
   display: flex;
+
+  @media (max-width: $mobiles-max) {
+    flex-direction: column;
+  }
 }
 
 .design__image {
@@ -56,6 +70,12 @@
   margin-right: 11.2%;
   flex-shrink: 0;
   height: 450px;
+
+  @media (max-width: $mobiles-max) {
+    margin: 0;
+    width: 100%;
+    order: 2;
+  }
 
   img {
     object-fit: cover;
@@ -68,6 +88,11 @@
   width: 38.7%;
   flex-shrink: 0;
   padding: 73px 5% 73px 0;
+
+  @media (max-width: $mobiles-max) {
+    padding: 0;
+    width: 100%;
+  }
 
   h2 {
     margin-bottom: 40px;

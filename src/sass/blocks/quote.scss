@@ -1,11 +1,19 @@
 .quote {
   margin: 123px 0;
 
+  @media(max-width: $tablets-max) {
+    margin: 20px 0;
+  }
+
   h3 {
     position: relative;
     padding-top: 185px;
     padding-left: 24%;
     padding-right: 16%;
+
+    @media(max-width: $tablets-max) {
+      padding: 0;
+    }
 
     &:before {
       position: absolute;

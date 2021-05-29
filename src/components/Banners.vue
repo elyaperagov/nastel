@@ -65,7 +65,8 @@ export default {
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev"
-        }
+        },
+
       },
       title: "Платформа - модульные дома для Вашего комфорта",
       logo: "img/company-name.png",

@@ -3,7 +3,6 @@ import VueTheMask from 'vue-the-mask'
 import SlideUpDown from 'vue-slide-up-down'
 import Sprite from '../components/Sprite.vue'
 import HeaderMain from '../components/HeaderMain.vue'
-import Footer from '../components/Footer.vue'
 import Banners from '../components/Banners.vue'
 import Series from '../components/Series.vue'
 import Design from '../components/Design.vue'
@@ -15,6 +14,7 @@ import Partner from '../components/Partner.vue'
 import Manufacturing from '../components/Manufacturing.vue'
 import Faq from '../components/Faq.vue'
 import More from '../components/More.vue'
+import FooterMain from '../components/FooterMain.vue'
 
 import Helpers from '../lib/Helpers.js'
 
@@ -59,7 +59,6 @@ const app = new Vue({
   components: {
     Sprite,
     HeaderMain,
-    Footer,
     Banners,
     Series,
     Design,
@@ -70,6 +69,7 @@ const app = new Vue({
     Partner,
     Manufacturing,
     Faq,
-    More
+    More,
+    FooterMain
   }
 })

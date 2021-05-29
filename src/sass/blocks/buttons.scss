@@ -9,6 +9,74 @@
   cursor: pointer;
   flex-shrink: 0;
 
+  &--toggle {
+    width: 27px;
+    position: absolute;
+    width: 29px;
+    height: 27px;
+    display: flex;
+    background-color: $color-gray;
+    align-items: center;
+    justify-content: center;
+    transition: $transition-settings;
+    right: 25px;
+    top: 30px;
+    padding: 0;
+    z-index: 2;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 2px;
+      height: 20px;
+      background-color: $color-white;
+      transform: rotate(45deg);
+      transition: $transition-settings;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 2px;
+      height: 20px;
+      background-color: $color-white;
+      transform: rotate(-45deg);
+      transition: $transition-settings;
+    }
+
+    &.close {
+      background-color: $color-gray;
+
+      span {
+        background-color: $color-default-white;
+        height: 2px;
+        width: 25px;
+      }
+
+      &:before {
+        height: 25px;
+        top: -6px;
+        background-color: $color-default-white;
+        transform: rotate(90deg);
+      }
+
+      &:after {
+        height: 25px;
+        bottom: -6px;
+        background-color: $color-default-white;
+        transform: rotate(90deg);
+      }
+    }
+
+    @media (min-width: $tablets-max) {
+      display: none;
+    }
+
+    @media (max-width: $tablets-max) {
+      display: flex;
+    }
+  }
+
   &--round {
     border-radius: 50%;
     background-color: $color-black;

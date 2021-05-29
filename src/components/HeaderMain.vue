@@ -3,29 +3,24 @@
     <div class="container">
       <div class="header__top">
         <div class="header__logo">
-          <a :href="'/'" class="header__logo-link">
+          <a :href="'home.html'" class="header__logo-link">
             <img
               loading="lazy"
               :src="logo"
-              alt="Логотипа Платформа"
-              :width="width"
-              :height="height"
+              alt="Логотип Платформа"
+              :width="!isMobile ? logo.width : logo_width_mob"
+              :height="!isMobile ? logo.height : logo_height_mob"
             />
           </a>
         </div>
-
-        <nav class="header__menu" v-if="!isMobile">
-          <a
-            class="header__menu-item"
-            v-for="(menu, i) in menu"
-            :key="i"
-            :href="menu.link"
-          >
-            {{ menu.name }}</a
-          >
-        </nav>
-
-        <div class="header__contacts">
+        <ul class="header__menu" v-if="!isMobile">
+          <li class="header__menu-item" v-for="(menu, i) in menu" :key="i">
+            <a :href="menu.link" @click.prevent="goTo(menu.link)">
+              {{ menu.name }}</a
+            >
+          </li>
+        </ul>
+        <div class="header__contacts" v-if="!isMobile">
           <a
             :href="'tel:' + phone"
             class="header__phone"
@@ -38,32 +33,47 @@
           </a>
         </div>
       </div>
-      <!-- <div
-        class="header__menu-toggle"
+      <button
+        class="button button--toggle"
         @click="menuToggle()"
-        :class="{ close: !$store.state.menuShown }"
+        :class="{ close: !menuShown }"
       >
         <span></span>
-      </div> -->
+      </button>
     </div>
-    <!-- <transition name="fade">
-      <div
-        class="header__mobile"
-        v-if="isMobile"
-        v-show="$store.state.menuShown"
-      >
-        <nav class="header__menu header__menu--mobile">
-          <a
-            class="header__menu-item"
-            v-for="(menu, i) in data.menu_payment"
-            :key="i"
-            @click.prevent="goTo(menu.link)"
-            :href="menu.link"
-            v-html="menu.name"
-          ></a>
-        </nav>
+    <transition name="fade">
+      <div class="header__mobile-wrapper" v-if="isMobile" v-show="menuShown">
+        <div class="header__overlay" @click="menuClose()"></div>
+        <div class="header__mobile">
+          <ul class="header__menu">
+            <li class="header__menu-item" v-for="(menu, i) in menu" :key="i">
+              <a
+                :href="menu.link"
+                @click.prevent="goTo(menu.link), menuClose()"
+              >
+                {{ menu.name }}</a
+              >
+            </li>
+          </ul>
+          <div class="header__contacts">
+            <a
+              :href="'tel:' + phone"
+              class="header__phone"
+              @click.prevent="menuClose()"
+            >
+              {{ phone }}
+            </a>
+            <a
+              :href="contact_link"
+              class="header__contact-us"
+              @click.prevent="goTo(contact_link), menuClose()"
+            >
+              {{ contact_us }}
+            </a>
+          </div>
+        </div>
       </div>
-    </transition> -->
+    </transition>
   </header>
 </template>
 
@@ -71,12 +81,15 @@
 export default {
   data() {
     return {
+      menuShown: false,
       mobileBreakpoint: 1024,
       windowWidth: window.innerWidth,
       isMobile: false,
       logo: 'img/platformahome.png',
-      width: 200,
-      height: 111,
+      logo_width: 200,
+      logo_height: 111,
+      logo_width_mob: 64,
+      logo_height_mob: 35,
       menu: [
         {
           name: 'Концепция',
@@ -107,10 +120,12 @@ export default {
   computed: {},
   mounted() {
     window.addEventListener('resize', this.handleResize)
+    // window.addEventListener('scroll', this.handleScroll)
     this.toggleMobile()
   },
   beforeDestroy() {
     window.removeEventListener('resize', this.handleResize)
+    // window.removeEventListener('scroll', this.handleScroll)
     this.toggleMobile()
   },
   methods: {
@@ -121,17 +136,15 @@ export default {
         }, 500)
       }
     },
-    menuToggle(state = null) {
-      if (state === null) {
-        state = !this.$store.state.menuShown
-      }
-      this.$store.commit('setMenuState', state)
+    menuToggle() {
+      this.menuShown = !this.menuShown
+      document.body.classList.toggle('scroll-off')
     },
-    menuClose(state) {
-      if (this.$store.state.menuShown === true) {
-        this.$store.state.menuShown = false
+    menuClose() {
+      if (this.menuShown) {
+        this.menuShown = false
+        document.body.classList.remove('scroll-off')
       }
-      this.$store.commit('setMenuClosed', state)
     },
     toggleMobile() {
       if (window.innerWidth <= this.mobileBreakpoint) {
@@ -140,8 +153,11 @@ export default {
         this.isMobile = false
       }
     },
+    // handleScroll() {
+    //   this.menuClose()
+    // },
     handleResize() {
-      this.toggleMobile()
+      this.toggleMobile(), this.menuClose()
     },
   },
   created() {

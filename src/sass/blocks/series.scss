@@ -1,5 +1,9 @@
 .series {
   margin-top: 160px;
+
+  @media (max-width: $tablets-max) {
+    margin-top: 50px;
+  }
 }
 
 .series__inner {
@@ -49,6 +53,15 @@
 
 .series__titles {
   width: 31%;
+  transition: $transition-settings;
+
+  @media (max-width: 1599px) {
+    width: 50%;
+  }
+
+  @media (max-width: $tablets-max) {
+    width: 100%;
+  }
 
   a {
     color: $color-blue;
@@ -94,6 +107,10 @@
 
 .series__item {
   min-height: 800px;
+
+  @media (max-width: $tablets-max) {
+    min-height: 550px;
+  }
 }
 
 .series__content {
@@ -110,6 +127,19 @@
 
   &:nth-child(3n) {
     transform: translateY(-134px);
+  }
+
+  @media (max-width: $tablets-max) {
+    width: 100%;
+    margin-right: 0;
+
+    &:nth-child(3n+1) {
+      transform: translateY(0);
+    }
+
+    &:nth-child(3n) {
+      transform: translateY(0);
+    }
   }
 }
 

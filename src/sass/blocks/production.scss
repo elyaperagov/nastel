@@ -6,9 +6,19 @@
   display: flex;
   padding: 92px 0 85px;
 
+  @media (max-width: $tablets-max) {
+    flex-direction: column;
+    padding: 20px 0 30px;
+  }
+
   h2 {
     width: 49%;
     margin: 0 1.7% 0 0;
+
+    @media (max-width: $tablets-max) {
+      width: 100%;
+      margin: 0;
+    }
   }
 
   p {
@@ -19,6 +29,11 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
+
+    @media (max-width: $tablets-max) {
+      width: 100%;
+      margin: 0;
+    }
   }
 }
 
