@@ -230,7 +230,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({name:'Exclusive',components:{Swiper:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["Swiper"],SwiperSlide:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["SwiperSlide"]},data:function data(){return{SliderOptions:{slidesPerView:1,spaceBetween:20,navigation:{nextEl:'.swiper-button-next',prevEl:'.swiper-button-prev'}},title:'Эксклюзивный дизайн от RHIZOME',text:'Архитектурное бюро из Петербурга, основанное в 2011 году. На сегодняшний день Rhizome – это команда из 12 архитекторов, ведущих работу над проектами разного масштаба: архитектура, благоустройство территорий, общественные интерьеры.',items:[{text:'Собака.ру «Петербург будущего 2020», Архитектурное бюро года',type:'text'},{text:'Собака.ру «Петербург будущего 2019», Дизайн отеля, Точка на Карте. Приозерск',type:'text'},{text:'АрхиWood 2019, Павильон Гостиная в Приозерске',type:'text'},{text:'Подробнее о RHIZHOME',type:'link',link:'#'}],slides:[{img:'img/rhizome.jpg',alt:'Эксклюзивный дизайн от RHIZOME',width:790,height:450},{img:'img/rhizome.jpg',alt:'Эксклюзивный дизайн от RHIZOME',width:790,height:450}]};}});
+/* harmony default export */ __webpack_exports__["default"] = ({name:'Exclusive',components:{Swiper:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["Swiper"],SwiperSlide:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["SwiperSlide"]},data:function data(){return{SliderOptions:{slidesPerView:1,spaceBetween:20,navigation:{nextEl:'.swiper-button-next',prevEl:'.swiper-button-prev'}},title:'Эксклюзивный дизайн от RHIZOME',text:'Архитектурное бюро из Петербурга, основанное в 2011 году. На сегодняшний день Rhizome – это команда из 12 архитекторов, ведущих работу над проектами разного масштаба: архитектура, благоустройство территорий, общественные интерьеры.',items:[{text:'Собака.ру «Петербург будущего 2020», Архитектурное бюро года',type:'text'},{text:'Собака.ру «Петербург будущего 2019», Дизайн отеля, Точка на Карте. Приозерск',type:'text'},{text:'АрхиWood 2019, Павильон Гостиная в Приозерске',type:'text'},{text:'Подробнее о RHIZHOME',type:'link',link:'#'}],slides:[{img:'img/production.jpg',alt:'Эксклюзивный дизайн от RHIZOME',width:790,height:450},{img:'img/rhizome.jpg',alt:'Эксклюзивный дизайн от RHIZOME',width:790,height:450}]};}});
 
 /***/ }),
 
@@ -466,7 +466,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({name:'manufacturing',components:{Swiper:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["Swiper"],SwiperSlide:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["SwiperSlide"]},data:function data(){return{SliderOptions:{direction:'vertical',slidesPerView:1,loop:false,pagination:{el:'.swiper-pagination',clickable:true,renderBullet:function renderBullet(index,className){if(index<9){return"<span class=\"".concat(className," swiper-pagination-bullet-custom\">0").concat(index+1,"</span>");}else{return"<span class=\"".concat(className," swiper-pagination-bullet-custom\">").concat(index+1,"</span>");}}},navigation:{}},slides:[{title:'Производство',texts:[{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания.'},{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания'}],img:'img/manufacturing.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:'Производство',texts:[{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания.'},{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания'}],img:'img/manufacturing.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:'Производство',texts:[{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания.'},{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания'}],img:'img/manufacturing.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:'Производство',texts:[{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания.'},{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания'}],img:'img/manufacturing.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:'Производство',texts:[{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания.'},{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания'}],img:'img/manufacturing.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500}]};}});
+/* harmony default export */ __webpack_exports__["default"] = ({name:'manufacturing',components:{Swiper:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["Swiper"],SwiperSlide:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["SwiperSlide"]},data:function data(){return{SliderOptions:{direction:'vertical',slidesPerView:1,loop:false,pagination:{el:'.swiper-pagination',clickable:true,renderBullet:function renderBullet(index,className){if(index<9){return"<span class=\"".concat(className," swiper-pagination-bullet-custom\">0").concat(index+1,"</span>");}else{return"<span class=\"".concat(className," swiper-pagination-bullet-custom\">").concat(index+1,"</span>");}}},navigation:{}},slides:[{title:'Производство',texts:[{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания.'},{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания'}],img:'img/manufacturing.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:'Производство',texts:[{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания.'},{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания'}],img:'img/manufacturing.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:'Производство',texts:[{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания.'},{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания'}],img:'img/patio.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:'Производство',texts:[{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания.'},{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания'}],img:'img/production.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:'Производство',texts:[{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания.'},{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания'}],img:'img/production.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500}]};}});
 
 /***/ }),
 
@@ -758,9 +758,13 @@ function asyncGeneratorStep(gen,resolve,reject,_next,_throw,key,arg){try{var inf
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({name:'Form',data:function data(){return{consultation:{title:'Узнать стоимость дома по своему проекту',button:'Отправить',agree:'Нажимая на кнопку, я подтверждаю, что согласен на обработку моих персональных данных, а также с Пользовательским соглашением '},form:{name:{value:'',label:'Ваше имя',type:'text',id:'questions-name',error:''},phone:{value:'',label:'Ваш телефон',type:'tel',id:'questions-phone',error:''},message:{value:'',label:'Сообщение',type:'textarea',id:'questions-message',maxlength:150,error:''},file:{value:{}},accept:{value:true},"default":{},success_text:'',overlay:false}};},methods:{sendFrom:function sendFrom(){var _this=this;return _asyncToGenerator(/*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(){var data,key,token,response;return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context){while(1){switch(_context.prev=_context.next){case 0:if(_this.$validate(_this.form)){_context.next=2;break;}return _context.abrupt("return");case 2:data=new FormData();for(key in _this.form){if(typeof _this.form[key].value!=='undefined'){data.append(key,_this.form[key].value);}}_context.next=6;return _this.$root.getRecaptchaToken('discount');case 6:token=_context.sent;data.append('recaptcha_response',token);data.append('method','request');_context.next=11;return axios.post('/api/',data)["catch"](function(error){console.log(error);});case 11:response=_context.sent;// if (response.data.success) {
-_this.$store.commit('ReviewSuccessOpen');// }
-case 13:case"end":return _context.stop();}}},_callee);}))();}}});
+/* harmony default export */ __webpack_exports__["default"] = ({name:'Form',data:function data(){return{consultation:{title:'Узнать стоимость дома по своему проекту',button:'Отправить',agree:'Нажимая на кнопку, я подтверждаю, что согласен на обработку моих персональных данных, а также с Пользовательским соглашением '},form:{name:{value:'',label:'Ваше имя',type:'text',id:'questions-name',error:''},phone:{value:'',label:'Ваш телефон',type:'tel',id:'questions-phone',error:''},message:{value:'',label:'Сообщение',type:'textarea',id:'questions-message',maxlength:150,error:''},file:{value:{}},accept:{value:true},"default":{},success_text:'',overlay:false}};},methods:{sendFrom:function sendFrom(){var _this=this;return _asyncToGenerator(/*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(){var data,key;return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context){while(1){switch(_context.prev=_context.next){case 0:if(_this.$validate(_this.form)){_context.next=2;break;}return _context.abrupt("return");case 2:data=new FormData();for(key in _this.form){if(typeof _this.form[key].value!=='undefined'){data.append(key,_this.form[key].value);}}data.append('method','request');// const response = await axios.post('/api/', data).catch((error) => {
+//   console.log(error)
+// })
+// if (response.data.success) {
+// this.$store.commit('ReviewSuccessOpen')
+// }
+case 5:case"end":return _context.stop();}}},_callee);}))();}}});
 
 /***/ }),
 
@@ -884,15 +888,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({name:'Series',components:{Swiper:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["Swiper"],SwiperSlide:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["SwiperSlide"]},data:function data(){return{mobileBreakpoint:1024,windowWidth:window.innerWidth,isMobile:false,SliderOptions:{slidesPerView:1,spaceBetween:20,pagination:{el:'.swiper-pagination',clickable:true},navigation:{nextEl:'.swiper-button-next',prevEl:'.swiper-button-prev'}},title:'Наши серии',subtitle:'PLATforma Home– это не просто дома, идеально созданные в заводских условиях по современным технологиям. Это философия жизни в стиле максимального личного комфорта, уюта и благополучия.',logo:'img/company-name.png',see_all:'#',see_all_text:'Смотреть все',slides:[{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'},{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]};},mounted:function mounted(){window.addEventListener('resize',this.handleResize);// window.addEventListener('scroll', this.handleScroll)
+/* harmony default export */ __webpack_exports__["default"] = ({name:'Series',components:{Swiper:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["Swiper"],SwiperSlide:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["SwiperSlide"]},data:function data(){return{mobileBreakpoint:1024,windowWidth:window.innerWidth,isMobile:false,SliderOptions:{slidesPerView:1,spaceBetween:20,loop:true,pagination:{el:'.swiper-pagination',clickable:true},navigation:{nextEl:'.swiper-button-next',prevEl:'.swiper-button-prev'}},title:'Наши серии',subtitle:'PLATforma Home– это не просто дома, идеально созданные в заводских условиях по современным технологиям. Это философия жизни в стиле максимального личного комфорта, уюта и благополучия.',logo:'img/company-name.png',see_all:'#',see_all_text:'Смотреть все',slides:[{title:'Серия "Cabin"',image:'img/production.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'},{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]};},mounted:function mounted(){window.addEventListener('resize',this.handleResize);// window.addEventListener('scroll', this.handleScroll)
 this.toggleMobile();},beforeDestroy:function beforeDestroy(){window.removeEventListener('resize',this.handleResize);// window.removeEventListener('scroll', this.handleScroll)
 this.toggleMobile();},methods:{toggleMobile:function toggleMobile(){if(window.innerWidth<=this.mobileBreakpoint){this.isMobile=true;}else{this.isMobile=false;}},handleResize:function handleResize(){this.toggleMobile();},chunkArray:function chunkArray(myArray,chunk_size){var index=0;var arrayLength=myArray.length;var tempArray=[];for(index=0;index<arrayLength;index+=chunk_size){var myChunk=myArray.slice(index,index+chunk_size);tempArray.push(myChunk);}return tempArray;}},computed:{desktopSlides:function desktopSlides(){var desktopUsers=[];this.slides.forEach(function(user){desktopUsers.push(user);});var desktopUserSlides=this.chunkArray(desktopUsers,3);return desktopUserSlides;},mobileSlides:function mobileSlides(){var mobileUsers=[];this.slides.forEach(function(user){mobileUsers.push(user);});var mobileUserSlides=this.chunkArray(mobileUsers,1);return mobileUserSlides;}}});
 
@@ -1152,7 +1148,43 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({data:function data(){return{};},computed:{}});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/components/VideoSection.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VideoSection.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({name:'Videos',data:function data(){return{mobileBreakpoint:1024,windowWidth:window.innerWidth,isMobile:false,videoId:'Kfuga7eL-yE',width:'100%',height:'770px',heightMobile:'400px'};},props:{},created:function created(){},methods:{toggleMobile:function toggleMobile(){if(window.innerWidth<=this.mobileBreakpoint){this.isMobile=true;}else{this.isMobile=false;}}},mounted:function mounted(){window.addEventListener('resize',this.toggleMobile);this.toggleMobile();},beforeDestroy:function beforeDestroy(){window.removeEventListener('resize',this.toggleMobile);this.toggleMobile();}});
 
 /***/ }),
 
@@ -14535,9 +14567,9 @@ var render = function() {
                   _c(
                     "button",
                     {
-                      staticClass: "button swiper-button-next",
-                      attrs: { slot: "button-next" },
-                      slot: "button-next"
+                      staticClass: "button swiper-button-prev",
+                      attrs: { slot: "button-prev" },
+                      slot: "button-prev"
                     },
                     [
                       _c(
@@ -14562,9 +14594,9 @@ var render = function() {
                   _c(
                     "button",
                     {
-                      staticClass: "button swiper-button-prev",
-                      attrs: { slot: "button-prev" },
-                      slot: "button-prev"
+                      staticClass: "button swiper-button-next",
+                      attrs: { slot: "button-next" },
+                      slot: "button-next"
                     },
                     [
                       _c(
@@ -14572,14 +14604,14 @@ var render = function() {
                         {
                           staticClass: "icon",
                           attrs: {
-                            width: "21",
-                            height: "12",
+                            width: "100",
+                            height: "100",
                             "aria-hidden": "true"
                           }
                         },
                         [
                           _c("use", {
-                            attrs: { "xlink:href": "#swiper-arrow" }
+                            attrs: { "xlink:href": "#right-button" }
                           })
                         ]
                       )
@@ -14639,61 +14671,7 @@ var render = function() {
                     staticClass: "swiper-pagination",
                     attrs: { slot: "pagination" },
                     slot: "pagination"
-                  }),
-                  _vm._v(" "),
-                  _c(
-                    "button",
-                    {
-                      staticClass: "button swiper-button-next",
-                      attrs: { slot: "button-next" },
-                      slot: "button-next"
-                    },
-                    [
-                      _c(
-                        "svg",
-                        {
-                          staticClass: "icon",
-                          attrs: {
-                            width: "21",
-                            height: "12",
-                            "aria-hidden": "true"
-                          }
-                        },
-                        [
-                          _c("use", {
-                            attrs: { "xlink:href": "#swiper-arrow" }
-                          })
-                        ]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "button",
-                    {
-                      staticClass: "button swiper-button-prev",
-                      attrs: { slot: "button-prev" },
-                      slot: "button-prev"
-                    },
-                    [
-                      _c(
-                        "svg",
-                        {
-                          staticClass: "icon",
-                          attrs: {
-                            width: "21",
-                            height: "12",
-                            "aria-hidden": "true"
-                          }
-                        },
-                        [
-                          _c("use", {
-                            attrs: { "xlink:href": "#swiper-arrow" }
-                          })
-                        ]
-                      )
-                    ]
-                  )
+                  })
                 ],
                 2
               )
@@ -14816,6 +14794,37 @@ var render = function() {
               attrs: {
                 d:
                   "M0.469669 5.46967C0.176777 5.76256 0.176777 6.23744 0.469669 6.53033L5.24264 11.3033C5.53553 11.5962 6.01041 11.5962 6.3033 11.3033C6.59619 11.0104 6.59619 10.5355 6.3033 10.2426L2.06066 6L6.3033 1.75736C6.59619 1.46447 6.59619 0.989594 6.3033 0.6967C6.01041 0.403807 5.53553 0.403807 5.24264 0.696701L0.469669 5.46967ZM21 5.25L1 5.25L1 6.75L21 6.75L21 5.25Z",
+                fill: "white"
+              }
+            })
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "symbol",
+          {
+            attrs: {
+              id: "right-button",
+              viewBox: "0 0 100 100",
+              fill: "none",
+              xmlns: "http://www.w3.org/2000/svg"
+            }
+          },
+          [
+            _c("circle", {
+              attrs: {
+                cx: "50",
+                cy: "50",
+                r: "49",
+                stroke: "white",
+                "stroke-width": "2"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              attrs: {
+                d:
+                  "M63.7071 50.7071C64.0976 50.3166 64.0976 49.6834 63.7071 49.2929L57.3431 42.9289C56.9526 42.5384 56.3195 42.5384 55.9289 42.9289C55.5384 43.3195 55.5384 43.9526 55.9289 44.3431L61.5858 50L55.9289 55.6569C55.5384 56.0474 55.5384 56.6805 55.9289 57.0711C56.3195 57.4616 56.9526 57.4616 57.3431 57.0711L63.7071 50.7071ZM38 51L63 51V49L38 49V51Z",
                 fill: "white"
               }
             })
@@ -15209,6 +15218,43 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/VideoSection.vue?vue&type=template&id=5bf2a11a&":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/components/VideoSection.vue?vue&type=template&id=5bf2a11a& ***!
+  \******************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "section",
+    { staticClass: "video" },
+    [
+      _c("youtube", {
+        attrs: {
+          "video-id": _vm.videoId,
+          "player-width": _vm.width,
+          "player-height": !_vm.isMobile ? _vm.height : _vm.heightMobile
+        }
+      })
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
 /*!********************************************************************!*\
   !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
@@ -15344,6 +15390,273 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 (function(e,t){ true?module.exports=t():undefined})(this,function(){return function(e){function t(r){if(n[r])return n[r].exports;var a=n[r]={i:r,l:!1,exports:{}};return e[r].call(a.exports,a,a.exports,t),a.l=!0,a.exports}var n={};return t.m=e,t.c=n,t.i=function(e){return e},t.d=function(e,n,r){t.o(e,n)||Object.defineProperty(e,n,{configurable:!1,enumerable:!0,get:r})},t.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(n,"a",n),n},t.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},t.p=".",t(t.s=10)}([function(e,t){e.exports={"#":{pattern:/\d/},X:{pattern:/[0-9a-zA-Z]/},S:{pattern:/[a-zA-Z]/},A:{pattern:/[a-zA-Z]/,transform:function(e){return e.toLocaleUpperCase()}},a:{pattern:/[a-zA-Z]/,transform:function(e){return e.toLocaleLowerCase()}},"!":{escape:!0}}},function(e,t,n){"use strict";function r(e){var t=document.createEvent("Event");return t.initEvent(e,!0,!0),t}var a=n(2),o=n(0),i=n.n(o);t.a=function(e,t){var o=t.value;if((Array.isArray(o)||"string"==typeof o)&&(o={mask:o,tokens:i.a}),"INPUT"!==e.tagName.toLocaleUpperCase()){var u=e.getElementsByTagName("input");if(1!==u.length)throw new Error("v-mask directive requires 1 input, found "+u.length);e=u[0]}e.oninput=function(t){if(t.isTrusted){var i=e.selectionEnd,u=e.value[i-1];for(e.value=n.i(a.a)(e.value,o.mask,!0,o.tokens);i<e.value.length&&e.value.charAt(i-1)!==u;)i++;e===document.activeElement&&(e.setSelectionRange(i,i),setTimeout(function(){e.setSelectionRange(i,i)},0)),e.dispatchEvent(r("input"))}};var s=n.i(a.a)(e.value,o.mask,!0,o.tokens);s!==e.value&&(e.value=s,e.dispatchEvent(r("input")))}},function(e,t,n){"use strict";var r=n(6),a=n(5);t.a=function(e,t){var o=!(arguments.length>2&&void 0!==arguments[2])||arguments[2],i=arguments[3];return Array.isArray(t)?n.i(a.a)(r.a,t,i)(e,t,o,i):n.i(r.a)(e,t,o,i)}},function(e,t,n){"use strict";function r(e){e.component(s.a.name,s.a),e.directive("mask",i.a)}Object.defineProperty(t,"__esModule",{value:!0});var a=n(0),o=n.n(a),i=n(1),u=n(7),s=n.n(u);n.d(t,"TheMask",function(){return s.a}),n.d(t,"mask",function(){return i.a}),n.d(t,"tokens",function(){return o.a}),n.d(t,"version",function(){return c});var c="0.11.1";t.default=r,"undefined"!=typeof window&&window.Vue&&window.Vue.use(r)},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=n(1),a=n(0),o=n.n(a),i=n(2);t.default={name:"TheMask",props:{value:[String,Number],mask:{type:[String,Array],required:!0},masked:{type:Boolean,default:!1},tokens:{type:Object,default:function(){return o.a}}},directives:{mask:r.a},data:function(){return{lastValue:null,display:this.value}},watch:{value:function(e){e!==this.lastValue&&(this.display=e)},masked:function(){this.refresh(this.display)}},computed:{config:function(){return{mask:this.mask,tokens:this.tokens,masked:this.masked}}},methods:{onInput:function(e){e.isTrusted||this.refresh(e.target.value)},refresh:function(e){this.display=e;var e=n.i(i.a)(e,this.mask,this.masked,this.tokens);e!==this.lastValue&&(this.lastValue=e,this.$emit("input",e))}}}},function(e,t,n){"use strict";function r(e,t,n){return t=t.sort(function(e,t){return e.length-t.length}),function(r,a){for(var o=!(arguments.length>2&&void 0!==arguments[2])||arguments[2],i=0;i<t.length;){var u=t[i];i++;var s=t[i];if(!(s&&e(r,s,!0,n).length>u.length))return e(r,u,o,n)}return""}}t.a=r},function(e,t,n){"use strict";function r(e,t){var n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2],r=arguments[3];e=e||"",t=t||"";for(var a=0,o=0,i="";a<t.length&&o<e.length;){var u=t[a],s=r[u],c=e[o];s&&!s.escape?(s.pattern.test(c)&&(i+=s.transform?s.transform(c):c,a++),o++):(s&&s.escape&&(a++,u=t[a]),n&&(i+=u),c===u&&o++,a++)}for(var f="";a<t.length&&n;){var u=t[a];if(r[u]){f="";break}f+=u,a++}return i+f}t.a=r},function(e,t,n){var r=n(8)(n(4),n(9),null,null);e.exports=r.exports},function(e,t){e.exports=function(e,t,n,r){var a,o=e=e||{},i=typeof e.default;"object"!==i&&"function"!==i||(a=e,o=e.default);var u="function"==typeof o?o.options:o;if(t&&(u.render=t.render,u.staticRenderFns=t.staticRenderFns),n&&(u._scopeId=n),r){var s=u.computed||(u.computed={});Object.keys(r).forEach(function(e){var t=r[e];s[e]=function(){return t}})}return{esModule:a,exports:o,options:u}}},function(e,t){e.exports={render:function(){var e=this,t=e.$createElement;return(e._self._c||t)("input",{directives:[{name:"mask",rawName:"v-mask",value:e.config,expression:"config"}],attrs:{type:"text"},domProps:{value:e.display},on:{input:e.onInput}})},staticRenderFns:[]}},function(e,t,n){e.exports=n(3)}])});
+
+/***/ }),
+
+/***/ "./node_modules/vue-youtube-embed/lib/vue-youtube-embed.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/vue-youtube-embed/lib/vue-youtube-embed.js ***!
+  \*****************************************************************/
+/*! exports provided: default, YouTubePlayer, getIdFromURL, getTimeFromURL */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "YouTubePlayer", function() { return YouTubePlayer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getIdFromURL", function() { return getIdFromURL; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getTimeFromURL", function() { return getTimeFromURL; });
+/*!
+ * Vue YouTube Embed version 2.2.2
+ * under MIT License copyright 2019 kaorun343
+ */
+// fork from https://github.com/brandly/angular-youtube-embed
+
+if (!String.prototype.includes) {
+  String.prototype.includes = function () {
+    return String.prototype.indexOf.apply(this, arguments) !== -1
+  };
+}
+
+var youtubeRegexp = /https?:\/\/(?:[0-9A-Z-]+\.)?(?:youtu\.be\/|youtube(?:-nocookie)?\.com\S*[^\w\s-])([\w-]{11})(?=[^\w-]|$)(?![?=&+%\w.-]*(?:['"][^<>]*>|<\/a>))[?=&+%\w.-]*/ig;
+var timeRegexp = /t=(\d+)[ms]?(\d+)?s?/;
+
+/**
+ * get id from url
+ * @param  {string} url url
+ * @return {string}     id
+ */
+function getIdFromURL (url) {
+  var id = url.replace(youtubeRegexp, '$1');
+
+  if (id.includes(';')) {
+    var pieces = id.split(';');
+
+    if (pieces[1].includes('%')) {
+      var uriComponent = decodeURIComponent(pieces[1]);
+      id = ("http://youtube.com" + uriComponent).replace(youtubeRegexp, '$1');
+    } else {
+      id = pieces[0];
+    }
+  } else if (id.includes('#')) {
+    id = id.split('#')[0];
+  }
+
+  return id
+}
+
+/**
+ * get time from url
+ * @param  {string} url url
+ * @return {number}     time
+ */
+function getTimeFromURL (url) {
+  if ( url === void 0 ) url = '';
+
+  var times = url.match(timeRegexp);
+
+  if (!times) {
+    return 0
+  }
+
+  var full = times[0];
+  var minutes = times[1];
+  var seconds = times[2];
+
+  if (typeof seconds !== 'undefined') {
+    seconds = parseInt(seconds, 10);
+    minutes = parseInt(minutes, 10);
+  } else if (full.includes('m')) {
+    minutes = parseInt(minutes, 10);
+    seconds = 0;
+  } else {
+    seconds = parseInt(minutes, 10);
+    minutes = 0;
+  }
+
+  return seconds + (minutes * 60)
+}
+
+var container = {
+  scripts: [],
+  events: {},
+
+  run: function run () {
+    var this$1 = this;
+
+    this.scripts.forEach(function (callback) {
+      callback(this$1.YT);
+    });
+    this.scripts = [];
+  },
+
+  register: function register (callback) {
+    var this$1 = this;
+
+    if (this.YT) {
+      this.Vue.nextTick(function () {
+        callback(this$1.YT);
+      });
+    } else {
+      this.scripts.push(callback);
+    }
+  }
+};
+
+var pid = 0;
+
+var YouTubePlayer = {
+  name: 'YoutubeEmbed',
+  props: {
+    playerHeight: {
+      type: [String, Number],
+      default: '360'
+    },
+    playerWidth: {
+      type: [String, Number],
+      default: '640'
+    },
+    playerVars: {
+      type: Object,
+      default: function () { return ({ autoplay: 0, time: 0 }); }
+    },
+    videoId: {
+      type: String
+    },
+    mute: {
+      type: Boolean,
+      default: false
+    },
+    host: {
+      type: String,
+      default: 'https://www.youtube.com'
+    }
+  },
+  render: function render (h) {
+    return h('div', [
+      h('div', { attrs: { id: this.elementId }})
+    ])
+  },
+  template: '<div><div :id="elementId"></div></div>',
+  watch: {
+    playerWidth: 'setSize',
+    playerHeight: 'setSize',
+    videoId: 'update',
+    mute: 'setMute'
+  },
+  data: function data () {
+    pid += 1;
+    return {
+      elementId: ("youtube-player-" + pid),
+      player: {}
+    }
+  },
+  methods: {
+    setSize: function setSize () {
+      this.player.setSize(this.playerWidth, this.playerHeight);
+    },
+    setMute: function setMute (value) {
+      if (value) {
+        this.player.mute();
+      } else {
+        this.player.unMute();
+      }
+    },
+    update: function update (videoId) {
+      var name = (this.playerVars.autoplay ? 'load' : 'cue') + "VideoById";
+      if (this.player.hasOwnProperty(name)) {
+        this.player[name](videoId);
+      } else {
+        setTimeout(function () {
+          this.update(videoId);
+        }.bind(this), 100);
+      }
+    }
+  },
+  mounted: function mounted () {
+    var this$1 = this;
+
+    container.register(function (YouTube) {
+      var ref = this$1;
+      var playerHeight = ref.playerHeight;
+      var playerWidth = ref.playerWidth;
+      var playerVars = ref.playerVars;
+      var videoId = ref.videoId;
+      var host = ref.host;
+
+      this$1.player = new YouTube.Player(this$1.elementId, {
+        height: playerHeight,
+        width: playerWidth,
+        playerVars: playerVars,
+        videoId: videoId,
+        host: host,
+        events: {
+          onReady: function (event) {
+            this$1.setMute(this$1.mute);
+            this$1.$emit('ready', event);
+          },
+          onStateChange: function (event) {
+            if (event.data !== -1) {
+              this$1.$emit(container.events[event.data], event);
+            }
+          },
+          onError: function (event) {
+            this$1.$emit('error', event);
+          }
+        }
+      });
+    });
+  },
+  beforeDestroy: function beforeDestroy () {
+    if (this.player !== null && this.player.destroy) {
+      this.player.destroy();
+    }
+    delete this.player;
+  }
+};
+
+var index = {
+  install: function install (Vue, options) {
+    if ( options === void 0 ) options = {};
+
+    container.Vue = Vue;
+    YouTubePlayer.ready = YouTubePlayer.mounted;
+    var global = options.global; if ( global === void 0 ) global = true;
+    var componentId = options.componentId; if ( componentId === void 0 ) componentId = 'youtube';
+
+    if (global) {
+      // if there is a global component with "youtube" identifier already taken
+      // then we should let user to pass a new identifier.
+      Vue.component(componentId, YouTubePlayer);
+    }
+    Vue.prototype.$youtube = { getIdFromURL: getIdFromURL, getTimeFromURL: getTimeFromURL };
+
+    if (typeof window !== 'undefined' && typeof document !== 'undefined') {
+      var tag = document.createElement('script');
+      tag.src = 'https://www.youtube.com/player_api';
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      window.onYouTubeIframeAPIReady = function () {
+        container.YT = YT;
+        var PlayerState = YT.PlayerState;
+
+        container.events[PlayerState.ENDED] = 'ended';
+        container.events[PlayerState.PLAYING] = 'playing';
+        container.events[PlayerState.PAUSED] = 'paused';
+        container.events[PlayerState.BUFFERING] = 'buffering';
+        container.events[PlayerState.CUED] = 'cued';
+
+        container.Vue.nextTick(function () {
+          container.run();
+        });
+      };
+    }
+  }
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (index);
+
+
 
 /***/ }),
 
@@ -16482,6 +16795,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/components/VideoSection.vue":
+/*!*****************************************!*\
+  !*** ./src/components/VideoSection.vue ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _VideoSection_vue_vue_type_template_id_5bf2a11a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./VideoSection.vue?vue&type=template&id=5bf2a11a& */ "./src/components/VideoSection.vue?vue&type=template&id=5bf2a11a&");
+/* harmony import */ var _VideoSection_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./VideoSection.vue?vue&type=script&lang=js& */ "./src/components/VideoSection.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _VideoSection_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _VideoSection_vue_vue_type_template_id_5bf2a11a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _VideoSection_vue_vue_type_template_id_5bf2a11a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "src/components/VideoSection.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./src/components/VideoSection.vue?vue&type=script&lang=js&":
+/*!******************************************************************!*\
+  !*** ./src/components/VideoSection.vue?vue&type=script&lang=js& ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VideoSection_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib??ref--4-0!../../node_modules/vue-loader/lib??vue-loader-options!./VideoSection.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./src/components/VideoSection.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_VideoSection_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./src/components/VideoSection.vue?vue&type=template&id=5bf2a11a&":
+/*!************************************************************************!*\
+  !*** ./src/components/VideoSection.vue?vue&type=template&id=5bf2a11a& ***!
+  \************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_VideoSection_vue_vue_type_template_id_5bf2a11a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib??vue-loader-options!./VideoSection.vue?vue&type=template&id=5bf2a11a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/components/VideoSection.vue?vue&type=template&id=5bf2a11a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_VideoSection_vue_vue_type_template_id_5bf2a11a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_VideoSection_vue_vue_type_template_id_5bf2a11a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./src/js/app.js":
 /*!***********************!*\
   !*** ./src/js/app.js ***!
@@ -16510,8 +16892,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Faq_vue__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Faq.vue */ "./src/components/Faq.vue");
 /* harmony import */ var _components_More_vue__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/More.vue */ "./src/components/More.vue");
 /* harmony import */ var _components_FooterMain_vue__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../components/FooterMain.vue */ "./src/components/FooterMain.vue");
-/* harmony import */ var _lib_Helpers_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../lib/Helpers.js */ "./src/lib/Helpers.js");
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_the_mask__WEBPACK_IMPORTED_MODULE_1___default.a);vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(_lib_Helpers_js__WEBPACK_IMPORTED_MODULE_17__["default"]);vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('slide-up-down',vue_slide_up_down__WEBPACK_IMPORTED_MODULE_2__["default"]);vue__WEBPACK_IMPORTED_MODULE_0___default.a.config.comments=true;vue__WEBPACK_IMPORTED_MODULE_0___default.a.config.ignoredElements=['noindex',/^ion-/];vue__WEBPACK_IMPORTED_MODULE_0___default.a.directive('scroll',{inserted:function inserted(el,binding){var f=function f(evt){if(binding.value(evt,el)){window.removeEventListener('scroll',f);}};window.addEventListener('scroll',f);console.log('scroll');}});var app=new vue__WEBPACK_IMPORTED_MODULE_0___default.a({el:'#app',data:function data(){return{};},watch:{},computed:{},created:function created(){},mounted:function mounted(){},methods:{},components:{Sprite:_components_Sprite_vue__WEBPACK_IMPORTED_MODULE_3__["default"],HeaderMain:_components_HeaderMain_vue__WEBPACK_IMPORTED_MODULE_4__["default"],Banners:_components_Banners_vue__WEBPACK_IMPORTED_MODULE_5__["default"],Series:_components_Series_vue__WEBPACK_IMPORTED_MODULE_6__["default"],Design:_components_Design_vue__WEBPACK_IMPORTED_MODULE_7__["default"],Quote:_components_Quote_vue__WEBPACK_IMPORTED_MODULE_8__["default"],Production:_components_Production_vue__WEBPACK_IMPORTED_MODULE_9__["default"],Exclusive:_components_Exclusive_vue__WEBPACK_IMPORTED_MODULE_10__["default"],Request:_components_Request_vue__WEBPACK_IMPORTED_MODULE_11__["default"],Partner:_components_Partner_vue__WEBPACK_IMPORTED_MODULE_12__["default"],Manufacturing:_components_Manufacturing_vue__WEBPACK_IMPORTED_MODULE_13__["default"],Faq:_components_Faq_vue__WEBPACK_IMPORTED_MODULE_14__["default"],More:_components_More_vue__WEBPACK_IMPORTED_MODULE_15__["default"],FooterMain:_components_FooterMain_vue__WEBPACK_IMPORTED_MODULE_16__["default"]}});
+/* harmony import */ var _components_VideoSection_vue__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../components/VideoSection.vue */ "./src/components/VideoSection.vue");
+/* harmony import */ var _lib_Helpers_js__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../lib/Helpers.js */ "./src/lib/Helpers.js");
+/* harmony import */ var vue_youtube_embed__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! vue-youtube-embed */ "./node_modules/vue-youtube-embed/lib/vue-youtube-embed.js");
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_the_mask__WEBPACK_IMPORTED_MODULE_1___default.a);vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(_lib_Helpers_js__WEBPACK_IMPORTED_MODULE_18__["default"]);vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('slide-up-down',vue_slide_up_down__WEBPACK_IMPORTED_MODULE_2__["default"]);vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_youtube_embed__WEBPACK_IMPORTED_MODULE_19__["default"]);vue__WEBPACK_IMPORTED_MODULE_0___default.a.config.comments=true;vue__WEBPACK_IMPORTED_MODULE_0___default.a.config.ignoredElements=['noindex',/^ion-/];vue__WEBPACK_IMPORTED_MODULE_0___default.a.directive('scroll',{inserted:function inserted(el,binding){var f=function f(evt){if(binding.value(evt,el)){window.removeEventListener('scroll',f);}};window.addEventListener('scroll',f);console.log('scroll');}});var app=new vue__WEBPACK_IMPORTED_MODULE_0___default.a({el:'#app',data:function data(){return{};},watch:{},computed:{},created:function created(){},mounted:function mounted(){},methods:{},components:{Sprite:_components_Sprite_vue__WEBPACK_IMPORTED_MODULE_3__["default"],HeaderMain:_components_HeaderMain_vue__WEBPACK_IMPORTED_MODULE_4__["default"],Banners:_components_Banners_vue__WEBPACK_IMPORTED_MODULE_5__["default"],Series:_components_Series_vue__WEBPACK_IMPORTED_MODULE_6__["default"],Design:_components_Design_vue__WEBPACK_IMPORTED_MODULE_7__["default"],Quote:_components_Quote_vue__WEBPACK_IMPORTED_MODULE_8__["default"],Production:_components_Production_vue__WEBPACK_IMPORTED_MODULE_9__["default"],Exclusive:_components_Exclusive_vue__WEBPACK_IMPORTED_MODULE_10__["default"],Request:_components_Request_vue__WEBPACK_IMPORTED_MODULE_11__["default"],Partner:_components_Partner_vue__WEBPACK_IMPORTED_MODULE_12__["default"],Manufacturing:_components_Manufacturing_vue__WEBPACK_IMPORTED_MODULE_13__["default"],Faq:_components_Faq_vue__WEBPACK_IMPORTED_MODULE_14__["default"],More:_components_More_vue__WEBPACK_IMPORTED_MODULE_15__["default"],FooterMain:_components_FooterMain_vue__WEBPACK_IMPORTED_MODULE_16__["default"],VideoSection:_components_VideoSection_vue__WEBPACK_IMPORTED_MODULE_17__["default"]}});
 
 /***/ }),
 

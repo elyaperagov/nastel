@@ -6,14 +6,34 @@
 .footer__inner {
   display: flex;
   padding-top: 50px;
+  flex-wrap: wrap;
+
+  @media (max-width: $mobiles-max) {
+    flex-direction: column;
+  }
 }
 
 .footer__block {
   width: 23.5%;
   margin-right: 2%;
 
-  &:last-of-type {
-    margin-right: 0;
+  @media (min-width: $desktops) {
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  @media (max-width: $tablets-max) {
+    width: 49%;
+    margin-right: 2%;
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+
+  @media (max-width: $mobiles-max) {
+    width: 100%;
   }
 
   &--logo {
@@ -27,6 +47,13 @@
       line-height: 20px;
       margin-bottom: 10px;
       color: $color-default-white;
+
+      @media (max-width: $mobiles-max) {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 0;
+        margin-left: 15px;
+      }
     }
 
     p {
@@ -35,15 +62,43 @@
       font-size: 14px;
       line-height: 17px;
       color: $color-default-white;
+
+      @media (max-width: $mobiles-max) {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 0;
+        margin-left: 15px;
+      }
+    }
+
+    @media (max-width: $mobiles-max) {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    @media (max-width: 500px) {
+      flex-direction: column;
     }
   }
 
   &--contacts {
     transform: translateY(-3px);
+
+    @media (max-width: $tablets-max) {
+      transform: none;
+    }
+
+    @media (max-width: 500px) {
+      margin-top: 20px;
+    }
   }
 
   &--social {
     margin-right: 1.5%;
+
+    @media (max-width: $tablets-max) {
+      margin-right: 2%;
+    }
   }
 
   &--agreements {
@@ -80,6 +135,11 @@
   font-size: 14px;
   line-height: 17px;
   color: $color-default-white;
+
+  @media (max-width: $tablets-max) {
+    font-size: 12px;
+    line-height: 18px;
+  }
 }
 
 .footer__logo-link {
@@ -104,6 +164,16 @@
     font-size: 14px;
     line-height: 17px;
     color: $color-default-white;
+
+    @media (max-width: $tablets-max) {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    justify-content: center;
+    width: auto;
   }
 }
 
@@ -113,6 +183,16 @@
 
 .footer__social-list {
   display: flex;
+
+  @media (max-width: $tablets-max) {
+    align-items: center;
+    height: 100%;
+  }
+
+  @media (max-width: 500px) {
+    margin: 20px 0;
+    justify-content: center;
+  }
 }
 
 .footer__social-item {

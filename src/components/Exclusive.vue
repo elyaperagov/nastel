@@ -98,7 +98,7 @@ export default {
       ],
       slides: [
         {
-          img: 'img/rhizome.jpg',
+          img: 'img/production.jpg',
           alt: 'Эксклюзивный дизайн от RHIZOME',
           width: 790,
           height: 450,

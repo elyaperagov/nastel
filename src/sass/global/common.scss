@@ -69,7 +69,7 @@ h1 {
   font-size: 40px;
   line-height: 100%;
 
-  @media (max-width: $mobiles-max) {
+  @media (max-width: $tablets-max) {
     margin-bottom: 20px;
     font-size: 22px;
     line-height: 120%;
@@ -85,7 +85,7 @@ h2 {
   margin-top: 0;
   margin-bottom: 30px;
 
-  @media (max-width: $mobiles-max) {
+  @media (max-width: $tablets-max) {
     margin-bottom: 20px;
     font-size: 22px;
     line-height: 120%;
@@ -99,6 +99,12 @@ h3 {
   font-size: 36px;
   line-height: 44px;
   color: $color-black;
+
+  @media (max-width: $tablets-max) {
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 120%;
+  }
 }
 
 h5 {

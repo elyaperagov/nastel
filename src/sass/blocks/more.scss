@@ -1,12 +1,21 @@
 .more {
   background: #F7F7F7;
   padding: 150px 0;
+
+  @media (max-width: $tablets-max) {
+    padding: 50px 0;
+  }
 }
 
 .more__inner {
   display: flex;
   align-items: center;
   margin-left: 7%;
+
+  @media (max-width: $tablets-max) {
+    flex-direction: column;
+    margin-left: 0;
+  }
 }
 
 .more__picture {
@@ -14,6 +23,15 @@
   margin-right: 13.5%;
   flex-shrink: 0;
   height: 400px;
+
+  @media (max-width: $tablets-max) {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  @media (max-width: $mobiles-max) {
+    height: 250px;
+  }
 
   img {
     object-fit: cover;
@@ -25,4 +43,14 @@
 .more__text {
   width: 66%;
   padding-right: 10%;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: $tablets-max) {
+    width: 100%;
+    padding-right: 0;
+    margin-top: 20px;
+
+    align-items: center;
+  }
 }

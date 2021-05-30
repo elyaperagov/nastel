@@ -47,14 +47,15 @@
           </swiper-slide>
 
           <div class="swiper-pagination" slot="pagination"></div>
-          <button class="button swiper-button-next" slot="button-next">
+
+          <button class="button swiper-button-prev" slot="button-prev">
             <svg class="icon" width="21" height="12" aria-hidden="true">
               <use xlink:href="#swiper-arrow"></use>
             </svg>
           </button>
-          <button class="button swiper-button-prev" slot="button-prev">
-            <svg class="icon" width="21" height="12" aria-hidden="true">
-              <use xlink:href="#swiper-arrow"></use>
+           <button class="button swiper-button-next" slot="button-next">
+            <svg class="icon" width="100" height="100" aria-hidden="true">
+              <use xlink:href="#right-button"></use>
             </svg>
           </button>
         </swiper>
@@ -97,16 +98,7 @@
           </swiper-slide>
 
           <div class="swiper-pagination" slot="pagination"></div>
-          <button class="button swiper-button-next" slot="button-next">
-            <svg class="icon" width="21" height="12" aria-hidden="true">
-              <use xlink:href="#swiper-arrow"></use>
-            </svg>
-          </button>
-          <button class="button swiper-button-prev" slot="button-prev">
-            <svg class="icon" width="21" height="12" aria-hidden="true">
-              <use xlink:href="#swiper-arrow"></use>
-            </svg>
-          </button>
+
         </swiper>
       </div>
     </div>
@@ -128,9 +120,11 @@ export default {
       mobileBreakpoint: 1024,
       windowWidth: window.innerWidth,
       isMobile: false,
+
       SliderOptions: {
         slidesPerView: 1,
         spaceBetween: 20,
+        loop: true,
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
@@ -149,7 +143,7 @@ export default {
       slides: [
         {
           title: 'Серия "Cabin"',
-          image: 'img/cabin.jpg',
+          image: 'img/production.jpg',
           width: 510,
           height: 400,
           subtitle: 'Cabin',

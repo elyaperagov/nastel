@@ -1,7 +1,7 @@
 .quote {
-  margin: 123px 0;
+  margin: 88px 0;
 
-  @media(max-width: $tablets-max) {
+  @media(max-width: 1299px) {
     margin: 20px 0;
   }
 
@@ -10,6 +10,10 @@
     padding-top: 185px;
     padding-left: 24%;
     padding-right: 16%;
+
+    @media (max-width: 1299px) {
+      padding-top: 80px;
+    }
 
     @media(max-width: $tablets-max) {
       padding: 0;
@@ -23,6 +27,14 @@
       left: 19%;
       width: 62px;
       height: 49px;
+
+      @media (max-width: 1299px) {
+        top: 25px;
+      }
+
+      @media(max-width: $tablets-max) {
+        display: none;
+      }
     }
   }
 }

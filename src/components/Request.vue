@@ -199,16 +199,15 @@ export default {
           data.append(key, this.form[key].value)
         }
       }
-      const token = await this.$root.getRecaptchaToken('discount')
-      data.append('recaptcha_response', token)
+
       data.append('method', 'request')
 
-      const response = await axios.post('/api/', data).catch((error) => {
-        console.log(error)
-      })
+      // const response = await axios.post('/api/', data).catch((error) => {
+      //   console.log(error)
+      // })
 
       // if (response.data.success) {
-      this.$store.commit('ReviewSuccessOpen')
+      // this.$store.commit('ReviewSuccessOpen')
       // }
     },
   },
