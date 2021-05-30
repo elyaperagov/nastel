@@ -1,5 +1,5 @@
 .series {
-  margin-top: 160px;
+  margin-top: 166px;
 
   @media (max-width: $tablets-max) {
     margin-top: 50px;
@@ -20,7 +20,7 @@
   .swiper-pagination-bullets {
     width: 27%!important;
     display: flex!important;
-    top: 62%;
+    top: 70.5%;
     left: 50%!important;
     transform: translate(-50%,-50%);
     height: 5px;
@@ -195,7 +195,7 @@
   width: 32%;
   justify-content: space-between;
   transform: translate(-50%, -50%);
-  bottom: 32%;
+  bottom: 22.5%;
   left: 50%;
 
   @media (max-width: 1299px) {

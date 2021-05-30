@@ -80,54 +80,55 @@
   &--round {
     border-radius: 50%;
     background-color: $color-black;
-    border-radius: 50%;
-    background-color: $color-black;
     display: block;
     width: 120px;
     min-height: 120px;
     padding: 48px 0;
 
-    p {
-      display: block;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      height: 24px; /* fallback */
-      margin: 0;
-      color: $color-default-white;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 10px;
-      line-height: 12px;
-      text-transform: uppercase;
-      text-align: center;
-    }
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 24px; /* fallback */
+    margin: 0;
+    color: $color-default-white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-align: center;
   }
 
   &--white {
     background-color: $color-default-white;
-
-    p {
-      font-style: normal;
-      font-weight: bold;
-      font-size: 10px;
-      line-height: 12px;
-      height: 12px;
-      text-align: center;
-      text-transform: uppercase;
-      color: $color-black;
-      display: block;
-      margin: 0 auto;
-      -webkit-line-clamp: 1;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      text-align: center;
-    }
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-black;
+    display: block;
+    padding: 48px 5px;
+    margin-right: auto;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
   }
 
   &--more {
+    @media (min-width: $desktops) {
+      transform: translateY(37px);
+    }
+
+    @media (max-width: $tablets-max) {
+      margin: 0 auto;
+    }
+
     border: 1px solid $color-black;
   }
 

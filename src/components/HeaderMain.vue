@@ -22,9 +22,8 @@
         </ul>
         <div class="header__contacts" v-if="!isMobile">
           <a
-            :href="'tel:' + phone"
+            :href="'tel:' + phone_href"
             class="header__phone"
-            @click.prevent="goTo(contact_link)"
           >
             {{ phone }}
           </a>
@@ -57,7 +56,7 @@
           </ul>
           <div class="header__contacts">
             <a
-              :href="'tel:' + phone"
+              :href="'tel:' + phone_href"
               class="header__phone"
               @click.prevent="menuClose()"
             >
@@ -113,6 +112,7 @@ export default {
         },
       ],
       phone: '+7 (812) 336-45-00',
+      phone_href: '+78123364500',
       contact_us: 'Обратиться к нам',
       contact_link: '#contact-us',
     }
@@ -120,12 +120,10 @@ export default {
   computed: {},
   mounted() {
     window.addEventListener('resize', this.handleResize)
-    // window.addEventListener('scroll', this.handleScroll)
     this.toggleMobile()
   },
   beforeDestroy() {
     window.removeEventListener('resize', this.handleResize)
-    // window.removeEventListener('scroll', this.handleScroll)
     this.toggleMobile()
   },
   methods: {

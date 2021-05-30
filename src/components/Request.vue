@@ -133,7 +133,7 @@
             class="button button--round button--white"
             @click.prevent="sendFrom()"
           >
-            <p>{{ consultation.button }}</p>
+            {{ consultation.button }}
           </button>
         </div>
       </form>

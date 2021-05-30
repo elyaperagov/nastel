@@ -1,15 +1,24 @@
 <template>
-  <section class="more">
+  <section class="more" id="contacts">
     <div class="container">
       <div class="more__inner">
         <div class="more__picture">
-          <img :src="img" :alt="title" :width="width" :height="height" />
+          <img
+            loading="lazy"
+            :src="img"
+            :alt="title"
+            :width="width"
+            :height="height"
+          />
         </div>
 
         <div class="more__text">
           <h2>{{ title }}</h2>
-          <button class="button button--round button--white button--more">
-            <p>{{ button_text }}</p>
+          <button
+            class="button button--round button--white button--more"
+            @click.prevent="goTo(contact_link)"
+          >
+            {{ button_text }}
           </button>
         </div>
       </div>
@@ -27,7 +36,18 @@ export default {
       height: 400,
       title: 'Хотели бы узнать больше?',
       button_text: 'Обратиться к нам',
+      contact_link: '#contact-us',
     }
+  },
+
+  methods: {
+    async goTo(link) {
+      if (!this.$scrollTo(link)) {
+        setTimeout(() => {
+          this.$scrollTo(link)
+        }, 500)
+      }
+    },
   },
 }
 </script>

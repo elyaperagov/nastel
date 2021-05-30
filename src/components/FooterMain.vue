@@ -44,7 +44,7 @@ export default {
       contacts: [
         {
           name: '+7 (812) 336-45-00',
-          href: 'tel:+7 (812) 336-45-00',
+          href: 'tel:+7(812)336-45-00',
           aria: 'phone',
           id: '#phone',
           width: 15,

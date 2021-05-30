@@ -4,6 +4,7 @@
       :video-id="videoId"
       :player-width="width"
       :player-height="!isMobile ? height : heightMobile"
+      :allowfullscreen="allowfullscreen"
     ></youtube>
   </section>
 </template>
@@ -18,8 +19,9 @@ export default {
       isMobile: false,
       videoId: 'Kfuga7eL-yE',
       width: '100%',
-      height: '770px',
-      heightMobile: '400px',
+      height: 770,
+      heightMobile: 400,
+      allowfullscreen: 0
     }
   },
   props: {},

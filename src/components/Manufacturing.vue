@@ -14,6 +14,7 @@
           >
             <div class="manufacturing__image">
               <img
+                loading="lazy"
                 :src="slide.img"
                 :alt="slide.img_alt"
                 :width="slide.img_width"

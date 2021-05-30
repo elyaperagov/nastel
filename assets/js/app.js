@@ -159,7 +159,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({name:'Design',components:{Swiper:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["Swiper"],SwiperSlide:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["SwiperSlide"]},data:function data(){return{SliderOptions:{direction:'vertical',slidesPerView:1,loop:false,pagination:{el:'.swiper-pagination',clickable:true,renderBullet:function renderBullet(index,className){if(index<9){return"<span class=\"".concat(className," swiper-pagination-bullet-custom\">0").concat(index+1,"</span>");}else{return"<span class=\"".concat(className," swiper-pagination-bullet-custom\">").concat(index+1,"</span>");}}},navigation:{}},slides:[{title:"Индивидуальное проектирование",text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:"Индивидуальное проектирование",text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:"Индивидуальное проектирование",text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:"Индивидуальное проектирование",text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:"Индивидуальное проектирование",text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500}]};}});
+//
+/* harmony default export */ __webpack_exports__["default"] = ({name:'Design',components:{Swiper:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["Swiper"],SwiperSlide:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["SwiperSlide"]},data:function data(){return{SliderOptions:{direction:'vertical',slidesPerView:1,loop:false,pagination:{el:'.swiper-pagination',clickable:true,renderBullet:function renderBullet(index,className){if(index<9){return"<span class=\"".concat(className," swiper-pagination-bullet-custom\">0").concat(index+1,"</span>");}else{return"<span class=\"".concat(className," swiper-pagination-bullet-custom\">").concat(index+1,"</span>");}}},navigation:{}},slides:[{title:'Индивидуальное проектирование',text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:'Индивидуальное проектирование',text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:'Индивидуальное проектирование',text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:'Индивидуальное проектирование',text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:'Индивидуальное проектирование',text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки.  Доставку осуществляет наша компания.',img:'img/design.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500}]};}});
 
 /***/ }),
 
@@ -176,6 +177,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var swiper_css_swiper_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! swiper/css/swiper.css */ "./node_modules/swiper/css/swiper.css");
 /* harmony import */ var swiper_css_swiper_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(swiper_css_swiper_css__WEBPACK_IMPORTED_MODULE_1__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -313,7 +325,7 @@ function asyncGeneratorStep(gen,resolve,reject,_next,_throw,key,arg){try{var inf
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({data:function data(){return{logo:{logo:'img/platforma-footer.png',alt:'logo',info:'АО «ПО «ПНСК»',inn:'ИНН: 4719016582 '},agreements:{confidentiality:'Политика конфеденциальности предоставляемых данных',confidentiality_link:'#',agreement:'Пользовательское соглашение',agreement_link:'#',site:'Сайт сделал: <a href="https://ra-studio.ru/">RA-Studio</s>'},contacts:[{name:'+7 (812) 336-45-00',href:'tel:+7 (812) 336-45-00',aria:'phone',id:'#phone',width:15,height:15},{name:'sale@plat-forma.pro',href:'mailto:sale@plat-forma.pro',aria:'email',id:'#email',width:15,height:12},{name:'г. Санкт-Петербург, Красное Село, улица Восстановления, 66',href:'https://yandex.ru/maps/-/CCUaaOs7CB',aria:'address',id:'#address',width:12,height:17}],socials:[{id:'#vk',width:23,height:14,href:'#vk',aria:'vk',"class":'footer__social-icon--vk'},{id:'#fb',width:11,height:24,href:'#fb',aria:'fb',"class":'footer__social-icon--fb'},{id:'#whatsapp',width:24,height:24,href:'#whatsapp',aria:'whatsapp',"class":'footer__social-icon--wp'},{id:'#telegram',width:24,height:20,href:'#telegram',aria:'telegram',"class":'footer__social-icon--tg'}]};},computed:{},components:{Social:_Social_vue__WEBPACK_IMPORTED_MODULE_1__["default"],Contacts:_Contacts_vue__WEBPACK_IMPORTED_MODULE_2__["default"]},methods:{goTo:function goTo(link){var _this=this;return _asyncToGenerator(/*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(){return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context){while(1){switch(_context.prev=_context.next){case 0:if(!_this.$scrollTo(link)){setTimeout(function(){_this.$scrollTo(link);},500);}case 1:case"end":return _context.stop();}}},_callee);}))();}}});
+/* harmony default export */ __webpack_exports__["default"] = ({data:function data(){return{logo:{logo:'img/platforma-footer.png',alt:'logo',info:'АО «ПО «ПНСК»',inn:'ИНН: 4719016582 '},agreements:{confidentiality:'Политика конфеденциальности предоставляемых данных',confidentiality_link:'#',agreement:'Пользовательское соглашение',agreement_link:'#',site:'Сайт сделал: <a href="https://ra-studio.ru/">RA-Studio</s>'},contacts:[{name:'+7 (812) 336-45-00',href:'tel:+7(812)336-45-00',aria:'phone',id:'#phone',width:15,height:15},{name:'sale@plat-forma.pro',href:'mailto:sale@plat-forma.pro',aria:'email',id:'#email',width:15,height:12},{name:'г. Санкт-Петербург, Красное Село, улица Восстановления, 66',href:'https://yandex.ru/maps/-/CCUaaOs7CB',aria:'address',id:'#address',width:12,height:17}],socials:[{id:'#vk',width:23,height:14,href:'#vk',aria:'vk',"class":'footer__social-icon--vk'},{id:'#fb',width:11,height:24,href:'#fb',aria:'fb',"class":'footer__social-icon--fb'},{id:'#whatsapp',width:24,height:24,href:'#whatsapp',aria:'whatsapp',"class":'footer__social-icon--wp'},{id:'#telegram',width:24,height:20,href:'#telegram',aria:'telegram',"class":'footer__social-icon--tg'}]};},computed:{},components:{Social:_Social_vue__WEBPACK_IMPORTED_MODULE_1__["default"],Contacts:_Contacts_vue__WEBPACK_IMPORTED_MODULE_2__["default"]},methods:{goTo:function goTo(link){var _this=this;return _asyncToGenerator(/*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(){return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context){while(1){switch(_context.prev=_context.next){case 0:if(!_this.$scrollTo(link)){setTimeout(function(){_this.$scrollTo(link);},500);}case 1:case"end":return _context.stop();}}},_callee);}))();}}});
 
 /***/ }),
 
@@ -406,10 +418,7 @@ function asyncGeneratorStep(gen,resolve,reject,_next,_throw,key,arg){try{var inf
 //
 //
 //
-//
-/* harmony default export */ __webpack_exports__["default"] = ({data:function data(){return{menuShown:false,mobileBreakpoint:1024,windowWidth:window.innerWidth,isMobile:false,logo:'img/platformahome.png',logo_width:200,logo_height:111,logo_width_mob:64,logo_height_mob:35,menu:[{name:'Концепция',link:'#concepts'},{name:'Серии',link:'#series'},{name:'Проекты',link:'#projects'},{name:'Блог',link:'#blog'},{name:'Контакты',link:'#contacts'}],phone:'+7 (812) 336-45-00',contact_us:'Обратиться к нам',contact_link:'#contact-us'};},computed:{},mounted:function mounted(){window.addEventListener('resize',this.handleResize);// window.addEventListener('scroll', this.handleScroll)
-this.toggleMobile();},beforeDestroy:function beforeDestroy(){window.removeEventListener('resize',this.handleResize);// window.removeEventListener('scroll', this.handleScroll)
-this.toggleMobile();},methods:{goTo:function goTo(link){var _this=this;return _asyncToGenerator(/*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(){return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context){while(1){switch(_context.prev=_context.next){case 0:if(!_this.$scrollTo(link)){setTimeout(function(){_this.$scrollTo(link);},500);}case 1:case"end":return _context.stop();}}},_callee);}))();},menuToggle:function menuToggle(){this.menuShown=!this.menuShown;document.body.classList.toggle('scroll-off');},menuClose:function menuClose(){if(this.menuShown){this.menuShown=false;document.body.classList.remove('scroll-off');}},toggleMobile:function toggleMobile(){if(window.innerWidth<=this.mobileBreakpoint){this.isMobile=true;}else{this.isMobile=false;}},// handleScroll() {
+/* harmony default export */ __webpack_exports__["default"] = ({data:function data(){return{menuShown:false,mobileBreakpoint:1024,windowWidth:window.innerWidth,isMobile:false,logo:'img/platformahome.png',logo_width:200,logo_height:111,logo_width_mob:64,logo_height_mob:35,menu:[{name:'Концепция',link:'#concepts'},{name:'Серии',link:'#series'},{name:'Проекты',link:'#projects'},{name:'Блог',link:'#blog'},{name:'Контакты',link:'#contacts'}],phone:'+7 (812) 336-45-00',phone_href:'+78123364500',contact_us:'Обратиться к нам',contact_link:'#contact-us'};},computed:{},mounted:function mounted(){window.addEventListener('resize',this.handleResize);this.toggleMobile();},beforeDestroy:function beforeDestroy(){window.removeEventListener('resize',this.handleResize);this.toggleMobile();},methods:{goTo:function goTo(link){var _this=this;return _asyncToGenerator(/*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(){return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context){while(1){switch(_context.prev=_context.next){case 0:if(!_this.$scrollTo(link)){setTimeout(function(){_this.$scrollTo(link);},500);}case 1:case"end":return _context.stop();}}},_callee);}))();},menuToggle:function menuToggle(){this.menuShown=!this.menuShown;document.body.classList.toggle('scroll-off');},menuClose:function menuClose(){if(this.menuShown){this.menuShown=false;document.body.classList.remove('scroll-off');}},toggleMobile:function toggleMobile(){if(window.innerWidth<=this.mobileBreakpoint){this.isMobile=true;}else{this.isMobile=false;}},// handleScroll() {
 //   this.menuClose()
 // },
 handleResize:function handleResize(){this.toggleMobile(),this.menuClose();}},created:function created(){var that=this;document.addEventListener('keyup',function(evt){if(evt.keyCode===27){that.menuClose(true);}});},components:{}});
@@ -466,6 +475,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({name:'manufacturing',components:{Swiper:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["Swiper"],SwiperSlide:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["SwiperSlide"]},data:function data(){return{SliderOptions:{direction:'vertical',slidesPerView:1,loop:false,pagination:{el:'.swiper-pagination',clickable:true,renderBullet:function renderBullet(index,className){if(index<9){return"<span class=\"".concat(className," swiper-pagination-bullet-custom\">0").concat(index+1,"</span>");}else{return"<span class=\"".concat(className," swiper-pagination-bullet-custom\">").concat(index+1,"</span>");}}},navigation:{}},slides:[{title:'Производство',texts:[{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания.'},{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания'}],img:'img/manufacturing.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:'Производство',texts:[{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания.'},{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания'}],img:'img/manufacturing.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:'Производство',texts:[{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания.'},{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания'}],img:'img/patio.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:'Производство',texts:[{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания.'},{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания'}],img:'img/production.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500},{title:'Производство',texts:[{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания.'},{text:'На выбор подходящий размер и конфигурация дома для разных земельных участков и разного состава семьи (молодая пара, семья с маленьким ребенком, дом для большой семьи). Мы сможем установить дом практически где угодно — на участке перед вашим домом, в лесной зоне, на берегу реки. Доставку осуществляет наша компания'}],img:'img/production.jpg',img_alt:'конфигурация дома для разных земельных участков',img_width:680,img_height:500}]};}});
 
 /***/ }),
@@ -479,6 +489,9 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+function asyncGeneratorStep(gen,resolve,reject,_next,_throw,key,arg){try{var info=gen[key](arg);var value=info.value;}catch(error){reject(error);return;}if(info.done){resolve(value);}else{Promise.resolve(value).then(_next,_throw);}}function _asyncToGenerator(fn){return function(){var self=this,args=arguments;return new Promise(function(resolve,reject){var gen=fn.apply(self,args);function _next(value){asyncGeneratorStep(gen,resolve,reject,_next,_throw,"next",value);}function _throw(err){asyncGeneratorStep(gen,resolve,reject,_next,_throw,"throw",err);}_next(undefined);});};}//
 //
 //
 //
@@ -498,7 +511,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({name:'More',data:function data(){return{img:'img/more.jpg',width:680,height:400,title:'Хотели бы узнать больше?',button_text:'Обратиться к нам'};}});
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({name:'More',data:function data(){return{img:'img/more.jpg',width:680,height:400,title:'Хотели бы узнать больше?',button_text:'Обратиться к нам',contact_link:'#contact-us'};},methods:{goTo:function goTo(link){var _this=this;return _asyncToGenerator(/*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(){return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context){while(1){switch(_context.prev=_context.next){case 0:if(!_this.$scrollTo(link)){setTimeout(function(){_this.$scrollTo(link);},500);}case 1:case"end":return _context.stop();}}},_callee);}))();}}});
 
 /***/ }),
 
@@ -881,16 +902,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({name:'Series',components:{Swiper:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["Swiper"],SwiperSlide:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["SwiperSlide"]},data:function data(){return{mobileBreakpoint:1024,windowWidth:window.innerWidth,isMobile:false,SliderOptions:{slidesPerView:1,spaceBetween:20,loop:true,pagination:{el:'.swiper-pagination',clickable:true},navigation:{nextEl:'.swiper-button-next',prevEl:'.swiper-button-prev'}},title:'Наши серии',subtitle:'PLATforma Home– это не просто дома, идеально созданные в заводских условиях по современным технологиям. Это философия жизни в стиле максимального личного комфорта, уюта и благополучия.',logo:'img/company-name.png',see_all:'#',see_all_text:'Смотреть все',slides:[{title:'Серия "Cabin"',image:'img/production.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'},{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]};},mounted:function mounted(){window.addEventListener('resize',this.handleResize);// window.addEventListener('scroll', this.handleScroll)
-this.toggleMobile();},beforeDestroy:function beforeDestroy(){window.removeEventListener('resize',this.handleResize);// window.removeEventListener('scroll', this.handleScroll)
-this.toggleMobile();},methods:{toggleMobile:function toggleMobile(){if(window.innerWidth<=this.mobileBreakpoint){this.isMobile=true;}else{this.isMobile=false;}},handleResize:function handleResize(){this.toggleMobile();},chunkArray:function chunkArray(myArray,chunk_size){var index=0;var arrayLength=myArray.length;var tempArray=[];for(index=0;index<arrayLength;index+=chunk_size){var myChunk=myArray.slice(index,index+chunk_size);tempArray.push(myChunk);}return tempArray;}},computed:{desktopSlides:function desktopSlides(){var desktopUsers=[];this.slides.forEach(function(user){desktopUsers.push(user);});var desktopUserSlides=this.chunkArray(desktopUsers,3);return desktopUserSlides;},mobileSlides:function mobileSlides(){var mobileUsers=[];this.slides.forEach(function(user){mobileUsers.push(user);});var mobileUserSlides=this.chunkArray(mobileUsers,1);return mobileUserSlides;}}});
+/* harmony default export */ __webpack_exports__["default"] = ({name:'Series',components:{Swiper:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["Swiper"],SwiperSlide:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["SwiperSlide"]},data:function data(){return{mobileBreakpoint:1024,windowWidth:window.innerWidth,isMobile:false,SliderOptions:{slidesPerView:1,spaceBetween:20,loop:true,pagination:{el:'.swiper-pagination',clickable:true},navigation:{nextEl:'.swiper-button-next',prevEl:'.swiper-button-prev'}},title:'Наши серии',subtitle:'PLATforma Home– это не просто дома, идеально созданные в заводских условиях по современным технологиям. Это философия жизни в стиле максимального личного комфорта, уюта и благополучия.',logo:'img/company-name.png',see_all:'#',see_all_text:'Смотреть все',slides:[{title:'Серия "Cabin"',image:'img/production.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'},{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'},{title:'Серия "Cabin"',image:'img/cabin.jpg',width:510,height:400,subtitle:'Cabin'},{title:'Серия "Patio"',image:'img/patio.jpg',width:510,height:400,subtitle:'Патио'},{title:'Серия "Зигзаг"',image:'img/zigzag.jpg',width:510,height:400,subtitle:'Зигзаг'}]};},mounted:function mounted(){window.addEventListener('resize',this.handleResize);this.toggleMobile();},beforeDestroy:function beforeDestroy(){window.removeEventListener('resize',this.handleResize);this.toggleMobile();},methods:{toggleMobile:function toggleMobile(){if(window.innerWidth<=this.mobileBreakpoint){this.isMobile=true;}else{this.isMobile=false;}},handleResize:function handleResize(){this.toggleMobile();},chunkArray:function chunkArray(myArray,chunk_size){var index=0;var arrayLength=myArray.length;var tempArray=[];for(index=0;index<arrayLength;index+=chunk_size){var myChunk=myArray.slice(index,index+chunk_size);tempArray.push(myChunk);}return tempArray;}},computed:{desktopSlides:function desktopSlides(){var desktopUsers=[];this.slides.forEach(function(user){desktopUsers.push(user);});var desktopUserSlides=this.chunkArray(desktopUsers,3);return desktopUserSlides;},mobileSlides:function mobileSlides(){var mobileUsers=[];this.slides.forEach(function(user){mobileUsers.push(user);});var mobileUserSlides=this.chunkArray(mobileUsers,1);return mobileUserSlides;}}});
 
 /***/ }),
 
@@ -1184,7 +1196,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({name:'Videos',data:function data(){return{mobileBreakpoint:1024,windowWidth:window.innerWidth,isMobile:false,videoId:'Kfuga7eL-yE',width:'100%',height:'770px',heightMobile:'400px'};},props:{},created:function created(){},methods:{toggleMobile:function toggleMobile(){if(window.innerWidth<=this.mobileBreakpoint){this.isMobile=true;}else{this.isMobile=false;}}},mounted:function mounted(){window.addEventListener('resize',this.toggleMobile);this.toggleMobile();},beforeDestroy:function beforeDestroy(){window.removeEventListener('resize',this.toggleMobile);this.toggleMobile();}});
+//
+/* harmony default export */ __webpack_exports__["default"] = ({name:'Videos',data:function data(){return{mobileBreakpoint:1024,windowWidth:window.innerWidth,isMobile:false,videoId:'Kfuga7eL-yE',width:'100%',height:770,heightMobile:400,allowfullscreen:0};},props:{},created:function created(){},methods:{toggleMobile:function toggleMobile(){if(window.innerWidth<=this.mobileBreakpoint){this.isMobile=true;}else{this.isMobile=false;}}},mounted:function mounted(){window.addEventListener('resize',this.toggleMobile);this.toggleMobile();},beforeDestroy:function beforeDestroy(){window.removeEventListener('resize',this.toggleMobile);this.toggleMobile();}});
 
 /***/ }),
 
@@ -12964,7 +12977,11 @@ var render = function() {
                     _c("div", { staticClass: "banners__content" }, [
                       _c("div", { staticClass: "banners__logo-image" }, [
                         _c("img", {
-                          attrs: { src: _vm.logo, alt: banner.title }
+                          attrs: {
+                            loading: "lazy",
+                            src: _vm.logo,
+                            alt: banner.title
+                          }
                         })
                       ]),
                       _vm._v(" "),
@@ -12976,7 +12993,11 @@ var render = function() {
                     _vm._v(" "),
                     _c("div", { staticClass: "banners__image" }, [
                       _c("img", {
-                        attrs: { src: banner.image, alt: banner.title }
+                        attrs: {
+                          loading: "lazy",
+                          src: banner.image,
+                          alt: banner.title
+                        }
                       })
                     ])
                   ])
@@ -13116,7 +13137,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("section", { staticClass: "design" }, [
+  return _c("section", { staticClass: "design", attrs: { id: "concepts" } }, [
     _c("div", { staticClass: "container" }, [
       _c(
         "div",
@@ -13138,6 +13159,7 @@ var render = function() {
                     _c("div", { staticClass: "design__image" }, [
                       _c("img", {
                         attrs: {
+                          loading: "lazy",
                           src: slide.img,
                           alt: slide.img_alt,
                           width: slide.img_width,
@@ -13264,25 +13286,74 @@ var render = function() {
                 staticClass: "swiper exclusive__swiper",
                 attrs: { options: _vm.SliderOptions }
               },
-              _vm._l(_vm.slides, function(slide, b) {
-                return _c(
-                  "swiper-slide",
-                  { key: b, staticClass: "exclusive__item" },
+              [
+                _vm._l(_vm.slides, function(slide, b) {
+                  return _c(
+                    "swiper-slide",
+                    { key: b, staticClass: "exclusive__item" },
+                    [
+                      _c("div", { staticClass: "exclusive__image" }, [
+                        _c("img", {
+                          attrs: {
+                            loading: "lazy",
+                            src: slide.img,
+                            alt: slide.alt,
+                            width: slide.img_width,
+                            height: slide.img_height
+                          }
+                        })
+                      ])
+                    ]
+                  )
+                }),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "button swiper-button-next",
+                    attrs: { slot: "button-next" },
+                    slot: "button-next"
+                  },
                   [
-                    _c("div", { staticClass: "exclusive__image" }, [
-                      _c("img", {
+                    _c(
+                      "svg",
+                      {
+                        staticClass: "icon",
                         attrs: {
-                          src: slide.img,
-                          alt: slide.img_alt,
-                          width: slide.img_width,
-                          height: slide.img_height
+                          width: "25",
+                          height: "15",
+                          "aria-hidden": "true"
                         }
-                      })
-                    ])
+                      },
+                      [_c("use", { attrs: { "xlink:href": "#swiper-arrow" } })]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "button swiper-button-prev",
+                    attrs: { slot: "button-prev" },
+                    slot: "button-prev"
+                  },
+                  [
+                    _c(
+                      "svg",
+                      {
+                        staticClass: "icon",
+                        attrs: {
+                          width: "25",
+                          height: "15",
+                          "aria-hidden": "true"
+                        }
+                      },
+                      [_c("use", { attrs: { "xlink:href": "#swiper-arrow" } })]
+                    )
                   ]
                 )
-              }),
-              1
+              ],
+              2
             )
           ],
           1
@@ -13313,7 +13384,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("section", { staticClass: "faq", attrs: { id: "faq" } }, [
+  return _c("section", { staticClass: "faq", attrs: { id: "blog" } }, [
     _c("div", { staticClass: "container" }, [
       _c("h2", [_vm._v(_vm._s(_vm.title))]),
       _vm._v(" "),
@@ -13533,13 +13604,7 @@ var render = function() {
                   "a",
                   {
                     staticClass: "header__phone",
-                    attrs: { href: "tel:" + _vm.phone },
-                    on: {
-                      click: function($event) {
-                        $event.preventDefault()
-                        return _vm.goTo(_vm.contact_link)
-                      }
-                    }
+                    attrs: { href: "tel:" + _vm.phone_href }
                   },
                   [_vm._v("\n          " + _vm._s(_vm.phone) + "\n        ")]
                 ),
@@ -13633,7 +13698,7 @@ var render = function() {
                       "a",
                       {
                         staticClass: "header__phone",
-                        attrs: { href: "tel:" + _vm.phone },
+                        attrs: { href: "tel:" + _vm.phone_href },
                         on: {
                           click: function($event) {
                             $event.preventDefault()
@@ -13722,6 +13787,7 @@ var render = function() {
                     _c("div", { staticClass: "manufacturing__image" }, [
                       _c("img", {
                         attrs: {
+                          loading: "lazy",
                           src: slide.img,
                           alt: slide.img_alt,
                           width: slide.img_width,
@@ -13788,12 +13854,13 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("section", { staticClass: "more" }, [
+  return _c("section", { staticClass: "more", attrs: { id: "contacts" } }, [
     _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "more__inner" }, [
         _c("div", { staticClass: "more__picture" }, [
           _c("img", {
             attrs: {
+              loading: "lazy",
               src: _vm.img,
               alt: _vm.title,
               width: _vm.width,
@@ -13807,8 +13874,16 @@ var render = function() {
           _vm._v(" "),
           _c(
             "button",
-            { staticClass: "button button--round button--white button--more" },
-            [_c("p", [_vm._v(_vm._s(_vm.button_text))])]
+            {
+              staticClass: "button button--round button--white button--more",
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.goTo(_vm.contact_link)
+                }
+              }
+            },
+            [_vm._v("\n          " + _vm._s(_vm.button_text) + "\n        ")]
           )
         ])
       ])
@@ -13891,44 +13966,48 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("section", { staticClass: "production" }, [
-    _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "production__texts" }, [
-        _c("h2", [_vm._v(_vm._s(_vm.title))]),
-        _vm._v(" "),
-        _c("p", [_vm._v(_vm._s(_vm.text))])
-      ])
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "production__info" }, [
+  return _c(
+    "section",
+    { staticClass: "production", attrs: { id: "projects" } },
+    [
       _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "production__inner" }, [
-          _c(
-            "ul",
-            { staticClass: "production__info-items" },
-            _vm._l(_vm.infos, function(info, i) {
-              return _c(
-                "li",
-                { key: i, staticClass: "production__info-item" },
-                [
-                  _c("div", { staticClass: "production__info-inner" }, [
-                    _c("p", [_vm._v(_vm._s(info.number))]),
+        _c("div", { staticClass: "production__texts" }, [
+          _c("h2", [_vm._v(_vm._s(_vm.title))]),
+          _vm._v(" "),
+          _c("p", [_vm._v(_vm._s(_vm.text))])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "production__info" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "production__inner" }, [
+            _c(
+              "ul",
+              { staticClass: "production__info-items" },
+              _vm._l(_vm.infos, function(info, i) {
+                return _c(
+                  "li",
+                  { key: i, staticClass: "production__info-item" },
+                  [
+                    _c("div", { staticClass: "production__info-inner" }, [
+                      _c("p", [_vm._v(_vm._s(info.number))]),
+                      _vm._v(" "),
+                      info.word
+                        ? _c("b", [_vm._v(" " + _vm._s(info.word) + " ")])
+                        : _vm._e()
+                    ]),
                     _vm._v(" "),
-                    info.word
-                      ? _c("b", [_vm._v(" " + _vm._s(info.word) + " ")])
-                      : _vm._e()
-                  ]),
-                  _vm._v(" "),
-                  _c("span", [_vm._v(" " + _vm._s(info.text) + " ")])
-                ]
-              )
-            }),
-            0
-          )
+                    _c("span", [_vm._v(" " + _vm._s(info.text) + " ")])
+                  ]
+                )
+              }),
+              0
+            )
+          ])
         ])
       ])
-    ])
-  ])
+    ]
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -14445,7 +14524,13 @@ var render = function() {
                   }
                 }
               },
-              [_c("p", [_vm._v(_vm._s(_vm.consultation.button))])]
+              [
+                _vm._v(
+                  "\n          " +
+                    _vm._s(_vm.consultation.button) +
+                    "\n        "
+                )
+              ]
             )
           ])
         ]
@@ -14522,6 +14607,7 @@ var render = function() {
                                 _c("div", { staticClass: "series__image" }, [
                                   _c("img", {
                                     attrs: {
+                                      loading: "lazy",
                                       src: item.image,
                                       alt: item.title,
                                       width: item.width,
@@ -14651,6 +14737,7 @@ var render = function() {
                                 _c("div", { staticClass: "series__image" }, [
                                   _c("img", {
                                     attrs: {
+                                      loading: "lazy",
                                       src: item.image,
                                       alt: item.title,
                                       width: item.width,
@@ -15241,7 +15328,8 @@ var render = function() {
         attrs: {
           "video-id": _vm.videoId,
           "player-width": _vm.width,
-          "player-height": !_vm.isMobile ? _vm.height : _vm.heightMobile
+          "player-height": !_vm.isMobile ? _vm.height : _vm.heightMobile,
+          allowfullscreen: _vm.allowfullscreen
         }
       })
     ],

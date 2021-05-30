@@ -15,12 +15,12 @@
           <div class="banners__wrapper">
             <div class="banners__content">
               <div class="banners__logo-image">
-                <img :src="logo" :alt="banner.title" />
+                <img loading="lazy" :src="logo" :alt="banner.title" />
               </div>
               <p class="banners__text" v-html="banner.subtitle"></p>
             </div>
             <div class="banners__image">
-              <img :src="banner.image" :alt="banner.title" />
+              <img loading="lazy" :src="banner.image" :alt="banner.title" />
             </div>
           </div>
         </swiper-slide>

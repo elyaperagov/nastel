@@ -38,13 +38,24 @@
             >
               <div class="exclusive__image">
                 <img
+                  loading="lazy"
                   :src="slide.img"
-                  :alt="slide.img_alt"
+                  :alt="slide.alt"
                   :width="slide.img_width"
                   :height="slide.img_height"
                 />
               </div>
             </swiper-slide>
+            <button class="button swiper-button-next" slot="button-next">
+              <svg class="icon" width="25" height="15" aria-hidden="true">
+                <use xlink:href="#swiper-arrow"></use>
+              </svg>
+            </button>
+            <button class="button swiper-button-prev" slot="button-prev">
+              <svg class="icon" width="25" height="15" aria-hidden="true">
+                <use xlink:href="#swiper-arrow"></use>
+              </svg>
+            </button>
           </swiper>
         </div>
       </div>
@@ -82,7 +93,8 @@ export default {
           type: 'text',
         },
         {
-          text: 'Собака.ру «Петербург будущего 2019», Дизайн отеля, Точка на Карте. Приозерск',
+          text:
+            'Собака.ру «Петербург будущего 2019», Дизайн отеля, Точка на Карте. Приозерск',
           type: 'text',
         },
         {
@@ -90,8 +102,7 @@ export default {
           type: 'text',
         },
         {
-          text:
-            'Подробнее о RHIZHOME',
+          text: 'Подробнее о RHIZHOME',
           type: 'link',
           link: '#',
         },

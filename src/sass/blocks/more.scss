@@ -46,6 +46,10 @@
   display: flex;
   flex-direction: column;
 
+  @media (min-width: $desktops) {
+    margin-top: -15px;
+  }
+
   @media (max-width: $tablets-max) {
     width: 100%;
     padding-right: 0;

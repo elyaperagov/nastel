@@ -20,14 +20,11 @@
             class="series__item"
           >
             <div class="series__blocks">
-              <div
-                class="series__content"
-                v-for="(item, i) in slide"
-                :key="i"
-              >
+              <div class="series__content" v-for="(item, i) in slide" :key="i">
                 <p class="series__text">{{ item.subtitle }}</p>
                 <div class="series__image">
                   <img
+                    loading="lazy"
                     :src="item.image"
                     :alt="item.title"
                     :width="item.width"
@@ -53,7 +50,7 @@
               <use xlink:href="#swiper-arrow"></use>
             </svg>
           </button>
-           <button class="button swiper-button-next" slot="button-next">
+          <button class="button swiper-button-next" slot="button-next">
             <svg class="icon" width="100" height="100" aria-hidden="true">
               <use xlink:href="#right-button"></use>
             </svg>
@@ -71,14 +68,11 @@
             class="series__item"
           >
             <div class="series__blocks">
-              <div
-                class="series__content"
-                v-for="(item, i) in slide"
-                :key="i"
-              >
+              <div class="series__content" v-for="(item, i) in slide" :key="i">
                 <p class="series__text">{{ item.subtitle }}</p>
                 <div class="series__image">
                   <img
+                    loading="lazy"
                     :src="item.image"
                     :alt="item.title"
                     :width="item.width"
@@ -98,7 +92,6 @@
           </swiper-slide>
 
           <div class="swiper-pagination" slot="pagination"></div>
-
         </swiper>
       </div>
     </div>
@@ -183,17 +176,36 @@ export default {
           height: 400,
           subtitle: 'Зигзаг',
         },
+        {
+          title: 'Серия "Cabin"',
+          image: 'img/cabin.jpg',
+          width: 510,
+          height: 400,
+          subtitle: 'Cabin',
+        },
+        {
+          title: 'Серия "Patio"',
+          image: 'img/patio.jpg',
+          width: 510,
+          height: 400,
+          subtitle: 'Патио',
+        },
+        {
+          title: 'Серия "Зигзаг"',
+          image: 'img/zigzag.jpg',
+          width: 510,
+          height: 400,
+          subtitle: 'Зигзаг',
+        },
       ],
     }
   },
   mounted() {
     window.addEventListener('resize', this.handleResize)
-    // window.addEventListener('scroll', this.handleScroll)
     this.toggleMobile()
   },
   beforeDestroy() {
     window.removeEventListener('resize', this.handleResize)
-    // window.removeEventListener('scroll', this.handleScroll)
     this.toggleMobile()
   },
   methods: {
