@@ -222,6 +222,18 @@
   margin: 4px 0 0 0;
   margin-right: 15px;
 
+  a {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #C4C4C4;
+    text-align: left;
+    margin: 4px 0 0 0;
+    margin-right: 15px;
+  }
+
   @media (max-width: $tablets-max) {
     font-size: 12px;
     line-height: 18px;

@@ -99,6 +99,10 @@
     @media (max-width: $tablets-max) {
       margin-right: 2%;
     }
+
+    @media (max-width: $mobiles-max) {
+      margin-bottom: 10px;
+    }
   }
 
   &--agreements {

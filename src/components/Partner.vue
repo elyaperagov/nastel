@@ -10,12 +10,7 @@
         </div>
         <div class="partner__logos">
           <div class="partner__logo" v-for="(item, i) in logos" :key="i">
-            <img
-              :src="item.src"
-              :alt="item.alt"
-              :width="item.width"
-              :height="item.height"
-            />
+            <img :src="item.src" :alt="item.alt" :width="item.width" :height="item.height"/>
           </div>
         </div>
       </div>
@@ -36,13 +31,13 @@ export default {
           src: 'img/sber.png',
           alt: 'лого сбербанк',
           width: 300,
-          height: 50,
+          height: 50
         },
         {
           src: 'img/vtb.png',
           alt: 'лого втб',
           width: 112,
-          height: 40,
+          height: 40
         },
       ],
     }

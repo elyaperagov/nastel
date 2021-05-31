@@ -1250,6 +1250,11 @@ main {
     margin-right: 2%;
   }
 }
+@media (max-width: 767px) {
+  .footer__block--social {
+    margin-bottom: 10px;
+  }
+}
 .footer__block--agreements {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1609,6 +1614,17 @@ main {
 }
 
 .form__agree {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #C4C4C4;
+  text-align: left;
+  margin: 4px 0 0 0;
+  margin-right: 15px;
+}
+.form__agree a {
   text-align: center;
   font-style: normal;
   font-weight: normal;
@@ -2050,9 +2066,6 @@ main {
 }
 .button:hover p {
   color: #2D2D2D;
-}
-.button:hover .icon {
-  stroke: #00A2CE;
 }
 
 .series {
@@ -3054,6 +3067,17 @@ main {
   margin: 4px 0 0 0;
   margin-right: 15px;
 }
+.form__agree a {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #C4C4C4;
+  text-align: left;
+  margin: 4px 0 0 0;
+  margin-right: 15px;
+}
 @media (max-width: 1023px) {
   .form__agree {
     font-size: 12px;
@@ -3157,6 +3181,7 @@ main {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   max-width: 376px;
+  height: 50px;
 }
 .partner__logo:first-of-type {
   width: 50%;

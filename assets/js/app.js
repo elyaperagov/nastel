@@ -552,11 +552,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({name:'Partner',data:function data(){return{title:'Наш банк партнер',text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',logos:[{src:'img/sber.png',alt:'лого сбербанк',width:300,height:50},{src:'img/vtb.png',alt:'лого втб',width:112,height:40}]};}});
 
 /***/ }),
@@ -777,9 +772,7 @@ function asyncGeneratorStep(gen,resolve,reject,_next,_throw,key,arg){try{var inf
 //
 //
 //
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({name:'Form',data:function data(){return{consultation:{title:'Узнать стоимость дома по своему проекту',button:'Отправить',agree:'Нажимая на кнопку, я подтверждаю, что согласен на обработку моих персональных данных, а также с Пользовательским соглашением '},form:{name:{value:'',label:'Ваше имя',type:'text',id:'questions-name',error:''},phone:{value:'',label:'Ваш телефон',type:'tel',id:'questions-phone',error:''},message:{value:'',label:'Сообщение',type:'textarea',id:'questions-message',maxlength:150,error:''},file:{value:{}},accept:{value:true},"default":{},success_text:'',overlay:false}};},methods:{sendFrom:function sendFrom(){var _this=this;return _asyncToGenerator(/*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(){var data,key;return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context){while(1){switch(_context.prev=_context.next){case 0:if(_this.$validate(_this.form)){_context.next=2;break;}return _context.abrupt("return");case 2:data=new FormData();for(key in _this.form){if(typeof _this.form[key].value!=='undefined'){data.append(key,_this.form[key].value);}}data.append('method','request');// const response = await axios.post('/api/', data).catch((error) => {
+/* harmony default export */ __webpack_exports__["default"] = ({name:'Form',data:function data(){return{consultation:{title:'Узнать стоимость дома по своему проекту',button:'Отправить',agree:'Нажимая на кнопку, я подтверждаю, что согласен на <a href="#">обработку моих персональных данных</a>, а также с <a href="#"> Пользовательским соглашением</a>'},form:{name:{value:'',label:'Ваше имя',type:'text',id:'questions-name',error:''},phone:{value:'',label:'Ваш телефон',type:'tel',id:'questions-phone',error:''},message:{value:'',label:'Сообщение',type:'textarea',id:'questions-message',maxlength:150,error:''},file:{value:{}},accept:{value:true},"default":{},success_text:'',overlay:false}};},methods:{sendFrom:function sendFrom(){var _this=this;return _asyncToGenerator(/*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(){var data,key;return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context){while(1){switch(_context.prev=_context.next){case 0:if(_this.$validate(_this.form)){_context.next=2;break;}return _context.abrupt("return");case 2:data=new FormData();for(key in _this.form){if(typeof _this.form[key].value!=='undefined'){data.append(key,_this.form[key].value);}}data.append('method','request');// const response = await axios.post('/api/', data).catch((error) => {
 //   console.log(error)
 // })
 // if (response.data.success) {
@@ -13465,7 +13458,7 @@ var render = function() {
               "a",
               {
                 staticClass: "footer__logo-link",
-                attrs: { href: "/home.html" }
+                attrs: { href: "home.html" }
               },
               [
                 _c("img", {
@@ -14506,11 +14499,10 @@ var render = function() {
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "form__send" }, [
-            _c("p", { staticClass: "form__agree" }, [
-              _vm._v(
-                "\n          " + _vm._s(_vm.consultation.agree) + "\n        "
-              )
-            ]),
+            _c("p", {
+              staticClass: "form__agree",
+              domProps: { innerHTML: _vm._s(_vm.consultation.agree) }
+            }),
             _vm._v(" "),
             _c(
               "button",

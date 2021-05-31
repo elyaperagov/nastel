@@ -124,9 +124,7 @@
           </label>
         </div>
         <div class="form__send">
-          <p class="form__agree">
-            {{ consultation.agree }}
-          </p>
+          <p class="form__agree" v-html="consultation.agree"></p>
           <button
             type="submit"
             name="submit"
@@ -150,7 +148,7 @@ export default {
         title: 'Узнать стоимость дома по своему проекту',
         button: 'Отправить',
         agree:
-          'Нажимая на кнопку, я подтверждаю, что согласен на обработку моих персональных данных, а также с Пользовательским соглашением ',
+          'Нажимая на кнопку, я подтверждаю, что согласен на <a href="#">обработку моих персональных данных</a>, а также с <a href="#"> Пользовательским соглашением</a>',
       },
       form: {
         name: {

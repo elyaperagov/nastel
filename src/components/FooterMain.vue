@@ -3,7 +3,7 @@
     <div class="container">
       <div class="footer__inner">
         <div class="footer__block footer__block--logo">
-          <a :href="'/home.html'" class="footer__logo-link">
+          <a :href="'home.html'" class="footer__logo-link">
             <img loading="lazy" :src="logo.logo" :alt="logo.alt" />
           </a>
           <b>{{ logo.info }}</b>
