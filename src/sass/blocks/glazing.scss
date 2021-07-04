@@ -52,6 +52,10 @@
         @media (max-width: $tablets-max) {
             left: 0;
         }
+
+        @media (max-width: 500px) {
+            display: none;
+        }
         &:after {
             display: none;
         }
@@ -65,6 +69,10 @@
         right: -26px;
         @media (max-width: $tablets-max) {
             right: 0;
+        }
+
+        @media (max-width: 500px) {
+            display: none;
         }
         &:after {
             display: none;

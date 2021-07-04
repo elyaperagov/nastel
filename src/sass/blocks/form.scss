@@ -51,7 +51,6 @@
     }
 }
 
-.form__field {}
 
 .form__subtitle {
     font-weight: normal;
@@ -98,13 +97,6 @@
     margin-bottom: 20px;
 }
 
-// input, textarea {
-//   outline:none;
-// }
-// // не показывать обводку в состоянии focus
-// input:focus, textarea:focus {
-//   outline:none;
-// }
 .form__input,
 .form__textarea {
     border-top: transparent;
@@ -117,7 +109,7 @@
     font-size: 14px;
     line-height: 21px;
     transition: $transition-settings;
-    color: $color-default-white;
+    color: $color-default-black;
     @media (max-width: $tablets-max) {
         font-size: 12px;
         line-height: 18px;

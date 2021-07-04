@@ -62,7 +62,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({name:"Banners",components:{Swiper:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["Swiper"],SwiperSlide:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["SwiperSlide"],Request:Request},data:function data(){return{additional:"Сопутствующие услуги",see_more:"Подробнее",additionalServices:{loop:true,breakpoints:{1024:{slidesPerView:3,spaceBetween:32,navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"}},768:{slidesPerView:2,spaceBetween:32,navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"}},0:{slidesPerView:"auto",spaceBetween:16}}},swiper_items:[{title:"Холодное раздвижное остекление",image:"img/warm-glazing.jpg"},{title:"Холодное раздвижное остекление",image:"img/warm-opening-glazing.jpg"},{title:"Холодное раздвижное остекление",image:"img/warm-turning-glazing.jpg"}]};},computed:{},mounted:function mounted(){},beforeDestroy:function beforeDestroy(){},methods:{}});
+/* harmony default export */ __webpack_exports__["default"] = ({name:'Banners',components:{Swiper:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["Swiper"],SwiperSlide:vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_0__["SwiperSlide"],Request:Request},data:function data(){return{additional:'Сопутствующие услуги',see_more:'Подробнее',additionalServices:{loop:true,breakpoints:{1024:{slidesPerView:3,spaceBetween:32,navigation:{nextEl:'.button-next',prevEl:'.button-prev'}},768:{slidesPerView:2,spaceBetween:32,navigation:{nextEl:'.button-next',prevEl:'.button-prev'}},0:{slidesPerView:'auto',spaceBetween:16}}},swiper_items:[{title:'Холодное раздвижное остекление',image:'img/warm-glazing.jpg'},{title:'Холодное раздвижное остекление',image:'img/warm-opening-glazing.jpg'},{title:'Холодное раздвижное остекление',image:'img/warm-turning-glazing.jpg'}]};},computed:{},mounted:function mounted(){},beforeDestroy:function beforeDestroy(){},methods:{}});
 
 /***/ }),
 
@@ -12253,7 +12253,7 @@ var render = function() {
           _c(
             "button",
             {
-              staticClass: "button swiper-button-next",
+              staticClass: "button button-next",
               attrs: { slot: "button-next" },
               slot: "button-next"
             },
@@ -12272,7 +12272,7 @@ var render = function() {
           _c(
             "button",
             {
-              staticClass: "button swiper-button-prev",
+              staticClass: "button button-prev",
               attrs: { slot: "button-prev" },
               slot: "button-prev"
             },
@@ -13767,8 +13767,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\OpenServer\domains\pl\src\js\app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! D:\OpenServer\domains\pl\src\sass\app.scss */"./src/sass/app.scss");
+__webpack_require__(/*! E:\open_server_5_3_7_full\OpenServer\domains\nastel\src\js\app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! E:\open_server_5_3_7_full\OpenServer\domains\nastel\src\sass\app.scss */"./src/sass/app.scss");
 
 
 /***/ })
