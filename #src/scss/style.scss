@@ -95,6 +95,7 @@ body {
 @import "footer";
 @import "home";
 
+@import "aos";
 @import "additional";
 @import "buttons";
 @import "form";
@@ -108,3 +109,13 @@ body {
 //===================================================================================================================================
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================
+.swiper-hero-progress {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  width: 0;
+  height: 3px;
+  background: #fff;
+  z-index: 5;
+  transition: $transition-settings;
+}

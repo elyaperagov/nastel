@@ -1,3 +1,25 @@
+// https://stackoverflow.com/a/36389263
+var getTimeout = function () {
+	var e = setTimeout,
+		b = {};
+	setTimeout = function (a, c) {
+		var d = e(a, c);
+		b[d] = [Date.now(), c];
+		return d
+	};
+	return function (a) {
+		return (a = b[a]) ? Math.max(a[1] - Date.now() + a[0], 0) : NaN
+	}
+}();
+
+// https://curtistimson.co.uk/post/js/default-negative-variables-to-zero-in-javascript/
+function sanitisePercentage(i) {
+	return Math.min(100, Math.max(0, i));
+}
+
+
+
+
 //BildSlider
 let sliders = document.querySelectorAll('._swiper');
 if (sliders) {
@@ -32,7 +54,7 @@ if (sliders) {
 	sliders_bild_callback();
 }
 
-function sliders_bild_callback(params) { }
+function sliders_bild_callback(params) {}
 
 let sliderScrollItems = document.querySelectorAll('._swiper_scroll');
 if (sliderScrollItems.length > 0) {
@@ -57,7 +79,7 @@ if (sliderScrollItems.length > 0) {
 }
 
 
-function sliders_bild_callback(params) { }
+function sliders_bild_callback(params) {}
 
 let slider_additional = new Swiper('.additional__swiper', {
 	/*
@@ -119,73 +141,89 @@ let slider_additional = new Swiper('.additional__swiper', {
 	//},
 });
 
+// Slider
+var percentTime;
+var tick;
+var progressBar = document.querySelector('.swiper-hero-progress');
 
-let slider_glazing = new Swiper('.glazing__swiper', {
-	/*
-	effect: 'fade',
+var mySwiper = new Swiper('.glazing__swiper', {
+	effect: 'slide',
+	loop: true,
+	speed: 1000,
+	slidesPerView: 1,
+	spaceBetween: 30,
+	grabCursor: true,
+	keyboard: {
+		enabled: true,
+		onlyInViewport: true
+	},
+	watchOverflow: true,
+	watchSlidesProgress: true,
+	watchSlidesVisibility: true,
+	roundLengths: true,
 	autoplay: {
 		delay: 3000,
-		disableOnInteraction: false,
+		disableOnInteraction: false
 	},
-	*/
-	observer: true,
-	observeParents: true,
-	autoHeight: true,
-	speed: 800,
-	slidesPerView: 1,
-	spaceBetween: 40,
-	loop: true,
-	centeredSlides: true,
-	//touchRatio: 0,
-	//simulateTouch: false,
-	//loop: true,
-	//preloadImages: false,
-	//lazy: true,
-	// Dotts
-	//pagination: {
-	//	el: '.slider-quality__pagging',
-	//	clickable: true,
-	//},
-	// Arrows
-	navigation: {
-		nextEl: '.swiper-button-next--glazing',
-		prevEl: '.swiper-button-prev--glazing',
-	},
-	/*
-	breakpoints: {
-		320: {
-			slidesPerView: 1,
-			spaceBetween: 0,
-			autoHeight: true,
-		},
-		768: {
-			slidesPerView: 2,
-			spaceBetween: 20,
-		},
-		992: {
-			slidesPerView: 3,
-			spaceBetween: 20,
-		},
-		1268: {
-			slidesPerView: 4,
-			spaceBetween: 30,
-		},
-	},
-	*/
+	// pagination: {
+	//   el: ".swiper-pagination",
+	//   type: "fraction"
+	// },
 	on: {
-		lazyImageReady: function () {
-			ibg();
-		},
+		slideChange: function () {
+			var swiper = this;
+			var defaultSlideDelay = swiper.params.autoplay.delay;
+			var currentIndex = swiper.realIndex + 1;
+			var currentSlide = swiper.slides[currentIndex];
+			var currentSlideDelay = currentSlide.getAttribute('data-swiper-autoplay') || defaultSlideDelay;
+
+			updateSwiperProgressBar(progressBar, currentSlideDelay);
+		}
 	}
-	// And if we need scrollbar
-	//scrollbar: {
-	//	el: '.swiper-scrollbar',
-	//},
 });
+
+function updateSwiperProgressBar(bar, slideDelay) {
+
+	function startProgressBar() {
+		resetProgressBar();
+		tick = setInterval(progress, 50);
+	}
+
+	function progress() {
+
+		var timeLeft = getTimeout(mySwiper.autoplay.timeout);
+
+
+		if (mySwiper.autoplay.running && !mySwiper.autoplay.paused) {
+			percentTime = sanitisePercentage(100 - Math.round(timeLeft / slideDelay * 100));
+			bar.style.width = percentTime + '%';
+
+
+			if (bar.style.width.replace('%', '') >= 100) {
+				startProgressBar();
+			}
+		}
+
+		if (mySwiper.autoplay.paused) {
+			percentTime = 0;
+			bar.style.width = 0;
+		}
+
+	}
+
+	function resetProgressBar() {
+		percentTime = 0;
+		bar.style.width = 0;
+		clearInterval(tick);
+	}
+
+	startProgressBar();
+
+}
 function email_test(input) {
 	return !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,8})+$/.test(input.value);
 }
-
+console.log('sdfsdfds')
 var ua = window.navigator.userAgent;
 var msie = ua.indexOf("MSIE ");
 var isMobile = { Android: function () { return navigator.userAgent.match(/Android/i); }, BlackBerry: function () { return navigator.userAgent.match(/BlackBerry/i); }, iOS: function () { return navigator.userAgent.match(/iPhone|iPad|iPod/i); }, Opera: function () { return navigator.userAgent.match(/Opera Mini/i); }, Windows: function () { return navigator.userAgent.match(/IEMobile/i); }, any: function () { return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows()); } };

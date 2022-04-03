@@ -1,21 +1,25 @@
 //let replace = require('gulp-replace'); //.pipe(replace('bar', 'foo'))
-let { src, dest } = require("gulp");
+let {
+	src,
+	dest
+} = require("gulp");
 let fs = require('fs');
 let gulp = require("gulp");
 let browsersync = require("browser-sync").create();
 let autoprefixer = require("gulp-autoprefixer");
-let scss = require("gulp-sass");
+// let scss = require("gulp-sass");
+let scss = require('gulp-sass')(require('sass'));
 let group_media = require("gulp-group-css-media-queries");
 let plumber = require("gulp-plumber");
 let del = require("del");
-let imagemin = require("gulp-imagemin");
+// let imagemin = require("gulp-imagemin");
 let uglify = require("gulp-uglify-es").default;
 let rename = require("gulp-rename");
 let fileinclude = require("gulp-file-include");
 let clean_css = require("gulp-clean-css");
 let newer = require('gulp-newer');
 
-let webp = require('imagemin-webp');
+// let webp = require('imagemin-webp');
 let webpcss = require("gulp-webpcss");
 let webphtml = require('gulp-webp-html');
 
@@ -51,6 +55,7 @@ let path = {
 	},
 	clean: "./" + project_name + "/"
 };
+
 function browserSync(done) {
 	browsersync.init({
 		server: {
@@ -60,6 +65,7 @@ function browserSync(done) {
 		port: 3000,
 	});
 }
+
 function html() {
 	return src(path.src.html, {})
 		.pipe(plumber())
@@ -68,6 +74,7 @@ function html() {
 		.pipe(dest(path.build.html))
 		.pipe(browsersync.stream());
 }
+
 function css() {
 	return src(path.src.css, {})
 		.pipe(plumber())
@@ -84,12 +91,10 @@ function css() {
 				cascade: true
 			})
 		)
-		.pipe(webpcss(
-			{
-				webpClass: "._webp",
-				noWebpClass: "._no-webp"
-			}
-		))
+		.pipe(webpcss({
+			webpClass: "._webp",
+			noWebpClass: "._no-webp"
+		}))
 		.pipe(dest(path.build.css))
 		.pipe(clean_css())
 		.pipe(
@@ -100,12 +105,13 @@ function css() {
 		.pipe(dest(path.build.css))
 		.pipe(browsersync.stream());
 }
+
 function js() {
 	return src(path.src.js, {})
 		.pipe(plumber())
 		.pipe(fileinclude())
 		.pipe(gulp.dest(path.build.js))
-		.pipe(uglify(/* options */))
+		.pipe(uglify( /* options */ ))
 		.pipe(
 			rename({
 				suffix: ".min",
@@ -115,6 +121,7 @@ function js() {
 		.pipe(dest(path.build.js))
 		.pipe(browsersync.stream());
 }
+
 function images() {
 	return src(path.src.images)
 		.pipe(newer(path.build.images))
@@ -143,6 +150,7 @@ function images() {
 		// )
 		.pipe(dest(path.build.images))
 }
+
 function favicon() {
 	return src(path.src.favicon)
 		.pipe(plumber())
@@ -153,6 +161,7 @@ function favicon() {
 		)
 		.pipe(dest(path.build.html))
 }
+
 function fonts_otf() {
 	return src('./' + src_folder + '/fonts/*.otf')
 		.pipe(plumber())
@@ -161,6 +170,7 @@ function fonts_otf() {
 		}))
 		.pipe(gulp.dest('./' + src_folder + +'/fonts/'));
 }
+
 function fonts() {
 	src(path.src.fonts)
 		.pipe(plumber())
@@ -171,6 +181,7 @@ function fonts() {
 		.pipe(dest(path.build.fonts))
 		.pipe(browsersync.stream());
 }
+
 function fontstyle() {
 	let file_content = fs.readFileSync(src_folder + '/scss/fonts.scss');
 	if (file_content == '') {
@@ -190,10 +201,13 @@ function fontstyle() {
 		})
 	}
 }
-function cb() { }
+
+function cb() {}
+
 function clean() {
 	return del(path.clean);
 }
+
 function watchFiles() {
 	gulp.watch([path.watch.html], html);
 	gulp.watch([path.watch.css], css);
