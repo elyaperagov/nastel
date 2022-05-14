@@ -1354,6 +1354,17 @@ main {
 }
 
 .additional__wrapper .button-prev {
+  width: 50px;
+  height: 50px;
+  background-color: #D6D6D6;
+  border-radius: 50%;
+  top: 28%;
+  left: -26px;
+  position: absolute;
+  z-index: 2;
+}
+
+.additional__wrapper .button-prev:after {
   display: none;
 }
 
@@ -1370,6 +1381,13 @@ main {
 
 .additional__wrapper .button-next:after {
   display: none;
+}
+
+.swiper-pagination {
+  position: absolute;
+  z-index: 20;
+  left: 10px;
+  bottom: 10px;
 }
 
 .button {
@@ -1833,6 +1851,10 @@ main {
 }
 
 @media (max-width: 1450px) {
+  .additional__wrapper .button-prev {
+    right: 0;
+  }
+
   .additional__wrapper .button-next {
     right: 0;
   }
@@ -1983,16 +2005,8 @@ main {
     padding-left: 20px;
   }
 
-  .additional__item {
-    width: 70% !important;
-  }
-
   .additional__img {
     height: 250px;
-  }
-
-  .additional__wrapper .button-next {
-    display: none;
   }
 
   .button--orange {

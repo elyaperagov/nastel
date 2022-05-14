@@ -32,153 +32,113 @@ if (sliders) {
 	sliders_bild_callback();
 }
 
-function sliders_bild_callback(params) { }
+function sliders_bild_callback(params) {}
 
 let sliderScrollItems = document.querySelectorAll('._swiper_scroll');
-if (sliderScrollItems.length > 0) {
-	for (let index = 0; index < sliderScrollItems.length; index++) {
-		const sliderScrollItem = sliderScrollItems[index];
-		const sliderScrollBar = sliderScrollItem.querySelector('.swiper-scrollbar');
-		const sliderScroll = new Swiper(sliderScrollItem, {
-			direction: 'vertical',
-			slidesPerView: 'auto',
-			freeMode: true,
-			scrollbar: {
-				el: sliderScrollBar,
-				draggable: true,
-				snapOnRelease: false
-			},
-			mousewheel: {
-				releaseOnEdges: true,
-			},
-		});
-		sliderScroll.scrollbar.updateSize();
-	}
-}
 
-
-function sliders_bild_callback(params) { }
+function sliders_bild_callback(params) {}
 
 let slider_additional = new Swiper('.additional__swiper', {
-	/*
-	effect: 'fade',
-	autoplay: {
-		delay: 3000,
-		disableOnInteraction: false,
-	},
-	*/
-	observer: true,
-	observeParents: true,
-	slidesPerView: 1,
-	spaceBetween: 0,
-	autoHeight: true,
-	speed: 800,
-	//touchRatio: 0,
-	//simulateTouch: false,
-	//loop: true,
-	//preloadImages: false,
-	//lazy: true,
-	// Dotts
-	//pagination: {
-	//	el: '.slider-quality__pagging',
-	//	clickable: true,
-	//},
-	// Arrows
+
+  pagination: {
+    el: ".swiper-pagination-additional",
+    clickable: true
+  },
 	navigation: {
 		nextEl: '.swiper-button-next--additional',
 		prevEl: '.swiper-button-prev--additional',
 	},
-
 	breakpoints: {
 		1024: {
-			slidesPerView: 3,
-			spaceBetween: 32,
-			// navigation: {
-			// 	nextEl: '.button-next',
-			// 	prevEl: '.button-prev',
-			// },
+			slidesPerView: 4,
+			spaceBetween: 0,
+			slidesPerGroup: 4,
+			loopFillGroupWithBlank: true
 		},
 		768: {
-			slidesPerView: 2,
-			spaceBetween: 32
+			slidesPerView: 3,
+			spaceBetween: 0,
+			slidesPerGroup: 3,
+			loopFillGroupWithBlank: true
 		},
 		0: {
-			slidesPerView: 'auto',
-			spaceBetween: 16,
-		},
-	},
-
-	on: {
-		lazyImageReady: function () {
-			ibg();
-		},
-	}
-	// And if we need scrollbar
-	//scrollbar: {
-	//	el: '.swiper-scrollbar',
-	//},
-});
-
-
-let slider_glazing = new Swiper('.glazing__swiper', {
-	/*
-	effect: 'fade',
-	autoplay: {
-		delay: 3000,
-		disableOnInteraction: false,
-	},
-	*/
-	observer: true,
-	observeParents: true,
-	autoHeight: true,
-	speed: 800,
-	slidesPerView: 1,
-	spaceBetween: 40,
-	loop: true,
-	centeredSlides: true,
-	//touchRatio: 0,
-	//simulateTouch: false,
-	//loop: true,
-	//preloadImages: false,
-	//lazy: true,
-	// Dotts
-	//pagination: {
-	//	el: '.slider-quality__pagging',
-	//	clickable: true,
-	//},
-	// Arrows
-	navigation: {
-		nextEl: '.swiper-button-next--glazing',
-		prevEl: '.swiper-button-prev--glazing',
-	},
-	/*
-	breakpoints: {
-		320: {
 			slidesPerView: 1,
 			spaceBetween: 0,
-			autoHeight: true,
-		},
-		768: {
-			slidesPerView: 2,
-			spaceBetween: 20,
-		},
-		992: {
-			slidesPerView: 3,
-			spaceBetween: 20,
-		},
-		1268: {
-			slidesPerView: 4,
-			spaceBetween: 30,
+			slidesPerGroup: 1,
+			loopFillGroupWithBlank: true
 		},
 	},
-	*/
-	on: {
-		lazyImageReady: function () {
-			ibg();
-		},
-	}
-	// And if we need scrollbar
-	//scrollbar: {
-	//	el: '.swiper-scrollbar',
-	//},
 });
+
+
+let slider_additional1 = new Swiper('.additional__swiper1', {
+  slidesPerView: 3,
+  spaceBetween: 0,
+  slidesPerGroup: 3,
+  loopFillGroupWithBlank: false,
+  pagination: {
+    el: ".swiper-pagination-additional1",
+    clickable: true
+  },
+	navigation: {
+		nextEl: '.swiper-button-next--additional1',
+		prevEl: '.swiper-button-prev--additional1',
+	},
+	breakpoints: {
+		1024: {
+			slidesPerView: 4,
+			spaceBetween: 0,
+			slidesPerGroup: 4,
+			loopFillGroupWithBlank: true
+		},
+		768: {
+			slidesPerView: 3,
+			spaceBetween: 0,
+			slidesPerGroup: 3,
+			loopFillGroupWithBlank: true
+		},
+		0: {
+			slidesPerView: 1,
+			spaceBetween: 0,
+			slidesPerGroup: 1,
+			loopFillGroupWithBlank: true
+		},
+	},
+});
+
+
+let slider_additional2 = new Swiper('.additional__swiper2', {
+  slidesPerView: 3,
+  spaceBetween: 0,
+  slidesPerGroup: 3,
+  loopFillGroupWithBlank: true,
+  pagination: {
+    el: ".swiper-pagination-additional2",
+    clickable: true
+  },
+	navigation: {
+		nextEl: '.swiper-button-next--additional2',
+		prevEl: '.swiper-button-prev--additional2',
+	},
+breakpoints: {
+		1024: {
+			slidesPerView: 4,
+			spaceBetween: 0,
+			slidesPerGroup: 4,
+			loopFillGroupWithBlank: true
+		},
+		768: {
+			slidesPerView: 3,
+			spaceBetween: 0,
+			slidesPerGroup: 3,
+			loopFillGroupWithBlank: true
+		},
+		0: {
+			slidesPerView: 1,
+			spaceBetween: 0,
+			slidesPerGroup: 1,
+			loopFillGroupWithBlank: true
+		},
+	},
+});
+

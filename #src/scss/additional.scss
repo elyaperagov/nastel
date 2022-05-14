@@ -9,11 +9,7 @@
     margin-top: 40px;
 }
 
-.additional__item {
-    @media (max-width: $mobiles-max) {
-        width: 70%!important;
-    }
-}
+
 
 .additional__text {
     font-style: normal;
@@ -57,7 +53,20 @@
 .additional__wrapper {
     position: relative;
     .button-prev {
-        display: none;
+        width: 50px;
+        height: 50px;
+        background-color: #D6D6D6;
+        border-radius: 50%;
+        top: 28%;
+        left: -26px;
+        position: absolute;
+        z-index: 2;
+        &:after {
+            display: none;
+        }
+        @media (max-width: 1450px) {
+            right: 0;
+        }
     }
     .button-next {
         width: 50px;
@@ -74,8 +83,12 @@
         @media (max-width: 1450px) {
             right: 0;
         }
-        @media (max-width: $mobiles-max) {
-            display: none;
-        }
     }
 }
+
+.swiper-pagination {
+    position: absolute;
+    z-index: 20;
+    left: 10px;
+    bottom: 10px;
+  }
