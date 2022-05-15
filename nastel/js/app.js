@@ -1,5 +1,5 @@
 //BildSlider
-let sliders = document.querySelectorAll('._swiper');
+let sliders = document.querySelectorAll('.swiper');
 if (sliders) {
 	for (let index = 0; index < sliders.length; index++) {
 		let slider = sliders[index];
@@ -18,28 +18,12 @@ if (sliders) {
 			slider.innerHTML = '';
 			slider.appendChild(slider_wrapper);
 			slider.classList.add('swiper-bild');
-
-			if (slider.classList.contains('_swiper_scroll')) {
-				let sliderScroll = document.createElement('div');
-				sliderScroll.classList.add('swiper-scrollbar');
-				slider.appendChild(sliderScroll);
-			}
-		}
-		if (slider.classList.contains('_gallery')) {
-			//slider.data('lightGallery').destroy(true);
 		}
 	}
-	sliders_bild_callback();
 }
 
-function sliders_bild_callback(params) {}
-
-let sliderScrollItems = document.querySelectorAll('._swiper_scroll');
-
-function sliders_bild_callback(params) {}
-
 let slider_additional = new Swiper('.additional__swiper', {
-
+	spaceBetween: 20,
   pagination: {
     el: ".swiper-pagination-additional",
     clickable: true
@@ -51,19 +35,16 @@ let slider_additional = new Swiper('.additional__swiper', {
 	breakpoints: {
 		1024: {
 			slidesPerView: 4,
-			spaceBetween: 0,
 			slidesPerGroup: 4,
 			loopFillGroupWithBlank: true
 		},
 		768: {
 			slidesPerView: 3,
-			spaceBetween: 0,
 			slidesPerGroup: 3,
 			loopFillGroupWithBlank: true
 		},
 		0: {
 			slidesPerView: 1,
-			spaceBetween: 0,
 			slidesPerGroup: 1,
 			loopFillGroupWithBlank: true
 		},
@@ -72,8 +53,8 @@ let slider_additional = new Swiper('.additional__swiper', {
 
 
 let slider_additional1 = new Swiper('.additional__swiper1', {
+	spaceBetween: 20,
   slidesPerView: 3,
-  spaceBetween: 0,
   slidesPerGroup: 3,
   loopFillGroupWithBlank: false,
   pagination: {
@@ -87,19 +68,16 @@ let slider_additional1 = new Swiper('.additional__swiper1', {
 	breakpoints: {
 		1024: {
 			slidesPerView: 4,
-			spaceBetween: 0,
 			slidesPerGroup: 4,
 			loopFillGroupWithBlank: true
 		},
 		768: {
 			slidesPerView: 3,
-			spaceBetween: 0,
 			slidesPerGroup: 3,
 			loopFillGroupWithBlank: true
 		},
 		0: {
 			slidesPerView: 1,
-			spaceBetween: 0,
 			slidesPerGroup: 1,
 			loopFillGroupWithBlank: true
 		},
@@ -108,10 +86,7 @@ let slider_additional1 = new Swiper('.additional__swiper1', {
 
 
 let slider_additional2 = new Swiper('.additional__swiper2', {
-  slidesPerView: 3,
-  spaceBetween: 0,
-  slidesPerGroup: 3,
-  loopFillGroupWithBlank: true,
+	spaceBetween: 20,
   pagination: {
     el: ".swiper-pagination-additional2",
     clickable: true
@@ -123,19 +98,16 @@ let slider_additional2 = new Swiper('.additional__swiper2', {
 breakpoints: {
 		1024: {
 			slidesPerView: 4,
-			spaceBetween: 0,
 			slidesPerGroup: 4,
 			loopFillGroupWithBlank: true
 		},
 		768: {
 			slidesPerView: 3,
-			spaceBetween: 0,
 			slidesPerGroup: 3,
 			loopFillGroupWithBlank: true
 		},
 		0: {
 			slidesPerView: 1,
-			spaceBetween: 0,
 			slidesPerGroup: 1,
 			loopFillGroupWithBlank: true
 		},

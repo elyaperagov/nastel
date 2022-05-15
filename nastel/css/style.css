@@ -706,11 +706,11 @@ body.ie ._ibg img {
   background: url("../img/icons/loading.gif") center/50px no-repeat;
 }
 
-._swiper {
+.swiper {
   overflow: hidden;
 }
 
-._swiper > div {
+.swiper > div {
   width: 100%;
   height: 100%;
   -webkit-box-sizing: content-box;
@@ -721,54 +721,10 @@ body.ie ._ibg img {
   position: relative;
 }
 
-._swiper.swiper-container-autoheight > div {
+.swiper.swiper-container-autoheight > div {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-}
-
-.swiper-container-initialized .swiper-slide {
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-}
-
-.swiper-container-android .swiper-slide,
-.swiper-container-android .swiper-wrapper {
-  -webkit-transform: translate3d(0px, 0, 0);
-          transform: translate3d(0px, 0, 0);
-}
-
-.swiper-button-lock {
-  display: none !important;
-}
-
-.slick-slider {
-  position: relative;
-}
-
-.slick-slider .slick-track,
-.slick-slider .slick-list {
-  -webkit-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-.slick-slider .slick-list {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-}
-
-.slick-slider .slick-track {
-  position: relative;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.slick-slider .slick-slide {
-  position: relative;
 }
 
 .tab__item {
